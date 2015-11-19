@@ -1,14 +1,79 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>App</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+	<head>
+	  <title>Rails tutorial</title>
+	  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+	  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+	  <%= csrf_meta_tags %>
+		<!-- META -->
+		<meta charset="UTF-8">
+		<!-- ADD FONT AWESOME -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<!-- ADD BOOSTRAP -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<!-- LEFT SIDER -->
+		<menu type="context toolbar" class="left-slider">
+			<%= link_to :home do %>
+			<li class="home active" name="home"><span class="faa-parent animated-hover"><i class="fa fa-home faa-wrench fa-3x active-icon"></i></span></li>
+			<% end %>
+			<%= link_to :blog do %>
+			<li class="blog" name="blog"><span class="faa-parent animated-hover"><i class="fa fa-heart faa-pulse fa-3x"></i></span></li>
+			<% end %>
+			<%= link_to :setting do %>
+			<li class="setting" name="setting"><span class="faa-parent animated-hover"><i class="fa fa-cog faa-burst fa-3x fa-spin"></span></i></li>
+			<% end %>
+			<%= link_to :about do %>
+			<li class="about-us" name="about-us"><span class="faa-parent animated-hover"><i class="fa fa-user faa-vertical fa-3x"></i></span></li>
+			<% end %>
+			<%= link_to :contact do %>
+			<li class="contact" name="contact"><span class="faa-parent animated-hover"><i class="fa fa-envelope faa-shake fa-3x"></i></span></li>
+			<% end %>
+		</menu>
+		<!-- WEB CONTENT -->
+		<main class="main-content">
 
-<%= yield %>
-
-</body>
+			<%= yield %>
+		
+		<!-- FOOTER -->
+			<footer class="footer">
+				<!-- BUTTON CONTROL -->
+				<div class="button-control">
+					<ul class="button-control-list">
+						<li><i class="fa fa-arrow-circle-left fa-3x"></i></li>
+						<li><i class="fa fa-arrow-circle-right fa-3x"></i></li>
+					</ul>
+				</div>
+				<!-- SOCIAL CONNECT -->
+				<div class="social-connect">
+					<ul class="social-connect-list">
+						<li class="faa-parent animated-hover" title="Github"><i class="fa fa-github faa-pulse fa-3x"></i></li>
+						<li class="faa-parent animated-hover" title="Facebook"><i class="fa fa-facebook faa-pulse fa-3x"></i></li>
+						<li class="faa-parent animated-hover" title="Goolge Plus"><i class="fa fa-google-plus faa-pulse fa-3x"></i></li>
+						<li class="faa-parent animated-hover" title="Twitter"><i class="fa fa-twitter faa-pulse fa-3x"></i></li>
+					</ul>
+				</div>
+				<div class="social-view">
+					<div class="close-button">
+						<img src="assets/close-light.png" alt="Close" title="Close" class="close-social-views-imgages">
+						<ul class="grid cs-style-4">
+							<li>
+								<figure>
+									<div><img src="assets/github.jpg" alt="Image" /></div>
+									<figcaption>
+										<h3></h3>
+										<a href="" target="blank">Connect us</a>
+									</figcaption>
+								</figure>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+		</main>
+		<!-- END BODY -->
+	</body>
 </html>

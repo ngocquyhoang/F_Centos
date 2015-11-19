@@ -13,3 +13,510 @@
  *= require_tree .
  *= require_self
  */
+::-moz-selection { color: #007AFF; }
+::selection { color: #007AFF; }
+/*SETTING FONT*/
+@font-face {
+	font-family:linotte_thin;
+	src:url('/assets/linotte-light.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+}
+@font-face {
+	font-family:linotte_regular;
+	src:url('/assets/linotte-regular.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+}
+/*SETTING FOR ALL*/
+input:focus{
+	box-shadow: 0 0 6px #007AFF;
+}
+a{
+	color: #fff;
+}
+a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+hr{
+	width: 80%;
+	margin-left: 10% !important;
+}
+/*LEFT SLIDER STYLE*/
+menu.left-slider{
+	list-style: none !important;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	float: left;
+	width: 45px;
+	height: 100vh;
+	background-image: url("left.jpg");
+}
+menu.left-slider .fa-3x{
+	font-size: 2em;
+	color: #ffffff;
+}
+menu.left-slider li.home{
+	margin-top: 35px;
+}
+menu.left-slider li{
+	padding: 15px 0px;
+}
+menu.left-slider li:hover{
+	background-color: #ffffff;
+}
+menu.left-slider li:hover i{
+	color: #007AFF;
+}
+/*MAIN CONTENT STYLE*/
+.main-content{
+	float: left;
+	height: 100vh;
+	background-image: url("background.jpg");
+	color: #ffffff;
+}
+.main-content section{
+	margin-left: 45px;
+	margin-right: 30px;
+}
+section{
+	font-family: linotte_thin;
+}
+.title-section{
+	height: 33px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.content-section{
+	overflow:auto;
+	padding-right: 30px;
+}
+/*##############HOME############*/
+section.home .content-section .logo-group{
+	text-align: center;
+}
+section.home .content-section .logo-group .logo-image{
+	width: 250px;
+}
+section.home .content-section .logo-group .logo-name{
+	font-size: 40px;
+}
+section.home .content-section .logo-group .logo-by{
+	font-size: 20px;
+}
+section.home .content-section .logo-group .logo-by span{
+	font-size: 30px;
+}
+section.home .content-section .home-content {
+	font-size: 15px;
+}
+/*SIGN FORM*/
+section.home .content-section .home-content button{
+	padding: 10px 20px;
+	background-color: rgba(255, 255, 255, 0.0);
+	border: 1px solid #ffffff;
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: normal;
+}
+section.home .content-section .home-content button:hover{
+	background-color: rgba(255, 255, 255, 0.5);
+}
+section.home .content-section .home-content .signin-button{
+	text-align: center;
+	margin-top: 50px;
+}
+section.home .content-section .home-content .signin-form-box{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background-color: rgba(97, 210, 254, 0.6);
+	background-image: url('Logo.png');
+	width: 100%;
+	height: 100%;
+	display: none;
+	z-index: 9;
+}
+section.home .content-section .home-content .signin-form-box .hr-line{
+	display: block;
+    height: 2px;
+    border: 0;
+    border-top: 1px solid #007AFF;
+    margin: 2em 0em;
+    padding: 0; 
+}
+section.home .content-section .home-content .signin-form{
+	width: 800px;
+	height: 460px;
+	background-color: #ffffff;
+	margin-top: 100px !important;
+	display: none;
+	color: #666;
+}
+section.home .content-section .home-content .signin-form .signin-form-title{
+	width: 100%;
+	height: 50px;
+	position: relative;
+	background-color: #F1F1F1;
+}
+section.home .content-section .home-content .signin-form .signin-form-title h4{
+	line-height: 50px;
+	float: left;
+	margin: 0px 20px;
+	font-weight: normal;
+	font-size: 20px;
+}
+.sign-up-title{
+	line-height: normal;
+	margin: 0px;
+	font-size: 20px;
+}
+
+section.home .content-section .home-content .signin-form .signin-form-title img{
+	width: 30px;
+	position: absolute;
+	top: 10px;
+	right: 15px;
+}
+section.home .content-section .home-content .signin-form .signin-form-content {
+	margin: 20px;
+	font-size: 16px;
+	margin: 30px 20px;
+}
+section.home .content-section .home-content .signin-form .signin-form-content #email{
+	margin-left: 104px;
+}
+section.home .content-section .home-content .signin-form .signin-form-content #pwd{
+	margin-left: 75px;
+}
+section.home .content-section .home-content .signin-form .signin-form-content #cpwd{
+	margin-left: 15px;
+}
+section.home .content-section .home-content .signin-form .signin-form-content #sign-up{
+	margin-top: 15px;
+}
+section.home .content-section .home-content .signin-form .signin-form-content #sign-in{
+	margin-top: 15px;
+}
+section.home .content-section .home-content .signin-form .signin-form-content .form{
+	position: relative;
+}
+section.home .content-section .home-content .signin-form .signin-form-content .form .submit-button{
+	position: absolute;
+	top: 14px;
+	right: 100px;
+	padding: 10px 40px;
+	background-color: #fff;
+	border: 1px solid #007AFF;
+}
+section.home .content-section .home-content .signin-form .signin-form-content .form .submit-button:hover{
+	background-color: rgba(0,122,255,0.3);
+}
+section.home .content-section .home-content .signin-form .signin-form-content .form ul li{
+	list-style: none;
+	margin-bottom: 10px;
+}
+section.home .content-section .home-content .signin-form .signin-form-content .form ul .label{
+	color: #666;
+	padding: 0px;
+	font-weight: normal;
+	font-size: 16px;
+}
+section.home .content-section .home-content .signin-form .signin-form-content .form ul li input[type="text"]{
+	margin-left: 70px;
+	background-color: #fff;
+	color: #666;
+	padding: 3px;
+	border: 1px solid #007AFF;
+}
+section.home .content-section .home-content .signin-form .signin-form-content .form ul li input[type="password"]{
+	margin-left: 79px;
+	background-color: #fff;
+	color: #666;
+	padding: 3px;
+	border: 1px solid #007AFF;
+}
+/*SIGNED*/
+section.home .content-section .home-content .more-info {
+	padding-left: 0px;
+	font-size: 18px;
+	margin-top: 25px;
+}
+section.home .content-section .home-content .more-info .inline{
+	margin: 5px 0px;
+	position: relative;
+}
+section.home .content-section .home-content .more-info .inline .label-infor{
+	position: absolute;
+	top: 2px;
+}
+section.home .content-section .home-content .more-info .inline .fa{
+	font-size: 30px;
+	margin-left: 240px;
+	color: #fff;
+}
+section.home .content-section .home-content .more-info .inline .fa:hover{
+	color: #333;
+}
+section.home .content-section .home-content .more-info .inline #facebook{
+	margin-left: 105px;
+}
+section.home .content-section .home-content .more-info .inline #facebook:hover{
+	color: #45619D;
+}
+section.home .content-section .home-content .more-info .inline #twitter{
+	margin-left: 145px;
+}
+section.home .content-section .home-content .more-info .inline #twitter:hover{
+	color: #55ACEE;
+}
+/*BLOG*/
+section.blog .blog-post-list{
+	display: block;
+}
+section.blog .blog-post-list .blog-post-content{
+	display: block;
+	color: #fff;
+	font-size: 15px;
+}
+.post-title{
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 30px;
+}
+.time-post{
+	text-align: center;
+	margin-bottom: 20px;
+	font-style: italic;
+}
+.post-image{
+	text-align: center;
+	width: 60%;
+	margin: 30px 0px 30px 20%;
+}
+.post-content{
+	margin-bottom: 30px;
+}
+section.blog .blog-post-list hr{
+	width: 75%;
+}
+.center-width{
+	width: 84%;
+	margin-left: 8%;
+}
+/*SETTING*/
+section.setting .setting-content .coming-soon{
+	width: 250px;
+	height: 250px;
+	border-radius: 200px;
+	background-color: rgba(255,255,255,0.65);
+	margin: 100px auto;
+  -webkit-transition: margin-top 2s,width 2s, height 2s;
+  transition: margin-top 2s,width 2s, height 2s;
+  border: 1px solid #fff;
+}
+section.setting .setting-content .coming-soon .text{
+	text-align: center;
+	font-size: 40px;
+	padding-top: 79px;
+	margin: 0px;
+	-webkit-transition: font-size 2s,padding-top 2s;
+	-webkit-transform 2s;
+  transition: font-size 2s,padding-top 2s, transform 2s;
+}
+section.setting .setting-content .coming-soon:hover{
+	width: 350px;
+	height: 350px;
+	margin-top: 50px;
+}
+section.setting .setting-content .coming-soon:hover .text{
+	font-size: 56px;
+	padding-top: 110px;
+	-webkit-transform: rotate(360deg); /* Safari */
+	transform: rotate(360deg);
+}
+/*ABOUT US*/
+section.about-us .about-member .team-member{
+	list-style: none;
+	padding-left: 0px;
+	margin-top: 15px;
+}
+section.about-us .about-member .team-member li{
+	clear: both;
+	display: inline-block;
+	width: 350px;
+	position: relative;
+	padding: 10px 0px;
+}
+section.about-us .about-member .team-member li img{
+	width: 91px;
+	position: absolute;
+}
+section.about-us .about-member .team-member li div{
+	display: inline-block;
+	margin-left: 120px;
+}
+section.about-us .about-us-info img{
+	width: 350px;
+	float: left;
+	margin-right: 30px;
+}
+section.about-us .about-us-info{
+	margin-top: 30px;
+}
+/*CONTACT*/
+section.contact .contact-content .form-table{
+	background-color: rgba(255,255,255,0.4);
+	font-size: 20px;
+	color: #fff;
+	margin-left: 10%;
+	margin-top: 20px;
+	padding: 40px 30px;
+	display: inline-block;
+	width: 40%;
+	min-width: 350px;
+	float: left;
+}
+section.contact .contact-content .form-table .contact-form-element{
+	width: 100%;
+	background-color: rgba(255,255,255,0.0);
+	border: 1px solid #fff;
+	margin-bottom: 13px;
+	padding: 3px;
+}
+section.contact .contact-content .form-table .send-button{
+	padding: 5px 10px;
+	background-color: rgba(255,255,255,0.0);
+	border: 1px solid #fff;
+}
+section.contact .contact-content .form-table .send-button:hover{
+	background-color: rgba(255,255,255,0.6);	
+}
+section.contact .contact-content .form-table .contact-form-element:focus{
+	box-shadow: none;
+}
+section.contact .contact-content .form-table p{
+	margin-bottom: 5px;
+}
+section.contact .contact-content .form-table .message-text{
+	height: 150px;
+}
+section.contact .contact-content .mem-text{
+	float: left;
+	width: 35%;
+	display: inline-block;
+	margin-left: 8%;
+	min-width: 300px;
+	font-size: 20px;
+	padding-top: 20px;
+}
+/*FOOTER*/
+.main-content .footer .button-control{
+	position: fixed;
+	bottom: 2px;
+	margin-left: 45px;
+}
+.main-content .footer .button-control .button-control-list{
+	list-style: none;
+	padding-left: 0px;
+	margin-bottom: 0px;
+}
+.main-content .footer .button-control .button-control-list li{
+	float: left;
+	margin-right: 20px;
+}
+.main-content .footer .social-connect{
+	position: fixed;
+	bottom: 2px;
+	right: 30px;
+}
+.main-content .footer .social-connect .social-connect-list{
+	list-style: none;
+	padding-left: 0px;
+	margin-bottom: 0px;
+}
+.main-content .footer .social-connect .social-connect-list li{
+	float: left;
+	margin: 0px 7px;
+}
+.main-content .footer .fa-3x{
+	font-size: 2em;
+	color: #ffffff;
+}
+.main-content .footer .fa-3x:hover{
+	color: #007AFF;
+}
+.main-content .footer .fa-github:hover{
+	color: #333;
+}
+.main-content .footer .fa-facebook:hover{
+	color: #45619D;
+}
+.main-content .footer .fa-google-plus:hover{
+	color: #53A93F;
+}
+.main-content .footer .fa-twitter:hover{
+	color: #55ACEE;
+}
+/*SOCIAL VIEW*/
+.footer .social-view{
+	position: fixed;
+	bottom: 42px;
+	right: 10px;
+	z-index: 9;
+}
+.footer .social-view{
+	display: none;
+}
+.footer .social-view a{
+	text-decoration: none;
+	color: #fff;
+	border-radius: 0px;
+	border: 1px solid #fff;
+	background-color: rgba(0,0,0,0.0);
+	font-family: linotte_thin;
+}
+.footer .social-view a:hover{
+	background-color: rgba(255,255,255,0.5);
+}
+.footer .social-view span{
+	color: #ffffff;
+}
+.footer .social-view figcaption{
+	background-image: url('social-background-text-show.jpg');
+}
+.footer .social-view figcaption h3{
+	font-family: linotte_thin;
+}
+.footer .social-view ul{
+	padding: 0px;
+}
+.footer .social-view ul li{
+	padding: 0px 20px;
+}
+.footer .social-view .close-button{
+	position: relative;
+}
+.footer .social-view .close-button .close-social-views-imgages{
+	width: 25px;
+	position: absolute;
+	top: 5px;
+	right: 25px;
+	z-index: 9999;
+}
+/*SETTING VIEW IN SOCIAL IMAGE*/
+.footer .social-view ul li{
+	width: 340px;
+}
+.footer figure img{
+	margin-top: -1px;
+}
+/*ACTIVE CLASS STYLE*/
+.left-slider .active{
+	background-color: #ffffff;
+}
+.left-slider .active-icon{
+	color: #007AFF !important;
+}
