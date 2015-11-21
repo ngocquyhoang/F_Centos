@@ -11,7 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151121141448) do
+ActiveRecord::Schema.define(version: 20151121200314) do
+
+  create_table "user_logs", force: :cascade do |t|
+    t.integer  "user_id",    limit: 4
+    t.string   "log_data",   limit: 255
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
+  end
 
   create_table "users", force: :cascade do |t|
     t.string   "email",                  limit: 255, default: "", null: false
