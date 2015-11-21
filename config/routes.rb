@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  get 'detail/index'
 
   devise_for :users
   get 'home' => 'home#index'
@@ -8,7 +7,7 @@ Rails.application.routes.draw do
 
   get 'about' => 'about#index'
 
-  get 'setting' => 'setting#index'
+  get 'service' => 'setting#index'
 
   get 'blog' => 'blog#index'
 
