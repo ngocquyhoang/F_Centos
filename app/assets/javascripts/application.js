@@ -16,14 +16,6 @@
 //= require_tree .
 // Javascript
 $( document ).ready(function() {
-	$("section.home .content-section .home-content button").click(function () {
-		SigninForm();
-	});
-	$(".signin-form #close").click(function () {
-		$("section.home .content-section .home-content .signin-form-box .signin-form").hide("slide", {direction:'up'} , "easeOutQuint ", 1000);
-		$("section.home .content-section .home-content .signin-form-box").hide("slide", {direction:'up'} , "easeOutQuint ", 1000);
-	})
-
 });
 // resize set value
 $( window ).resize(function() {

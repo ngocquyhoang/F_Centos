@@ -84,5 +84,13 @@
 		ShowSocialView();
 		$(".left-slider li.home i").addClass('active-icon');
 		$(".left-slider li.home").addClass('active');
+		// Sign in form show javascript
+		$("section.home .content-section .home-content button").click(function () {
+			SigninForm();
+		});
+		$(".signin-form #close").click(function () {
+			$("section.home .content-section .home-content .signin-form-box .signin-form").hide("slide", {direction:'up'} , "easeOutQuint ", 1000);
+			$("section.home .content-section .home-content .signin-form-box").hide("slide", {direction:'up'} , "easeOutQuint ", 1000);
+		});
 	});	
 </script>
