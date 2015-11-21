@@ -199,7 +199,7 @@ section.home .content-section .home-content .signin-form .signin-form-content #p
 	margin-left: 75px;
 }
 section.home .content-section .home-content .signin-form .signin-form-content #cpwd{
-	margin-left: 15px;
+	margin-left: 20px;
 }
 section.home .content-section .home-content .signin-form .signin-form-content #sign-up{
 	margin-top: 15px;
@@ -233,6 +233,13 @@ section.home .content-section .home-content .signin-form .signin-form-content .f
 }
 section.home .content-section .home-content .signin-form .signin-form-content .form ul li input[type="text"]{
 	margin-left: 70px;
+	background-color: #fff;
+	color: #666;
+	padding: 3px;
+	border: 1px solid #007AFF;
+}
+section.home .content-section .home-content .signin-form .signin-form-content .form ul li input[type="email"]{
+	margin-left: 109px;
 	background-color: #fff;
 	color: #666;
 	padding: 3px;
@@ -530,4 +537,18 @@ section.contact .contact-content .mem-text{
 }
 .left-slider .active-icon{
 	color: #007AFF !important;
+}
+.hello-user{
+	text-align: center;
+	font-size: 25px;
+}
+section.home .content-section .home-content .signout-button{
+	text-align: center;
+	margin-top: 50px;
+}
+section.home .content-section .home-content .signout-button a{
+	color: #fff;
+}
+section.home .content-section .home-content .signout-button a:hover{
+	text-decoration: none;
 }
