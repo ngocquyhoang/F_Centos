@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
 
-  devise_for :users
+  resources :user_logs
+
+  devise_for :users, controllers: { sessions: "users/sessions" }
+  
   get 'home' => 'home#index'
 
   get 'contact' => 'contact#index'
