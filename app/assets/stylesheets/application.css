@@ -552,3 +552,13 @@ section.home .content-section .home-content .signout-button a{
 section.home .content-section .home-content .signout-button a:hover{
 	text-decoration: none;
 }
+.sign-in{
+	font-size: 30px;
+	padding: 20px;
+	background-color: rgba(255,255,255,0.6);
+	display: inline-block;
+	margin-top: 200px;
+}
+.sign-in-plz{
+	text-align: center;
+}

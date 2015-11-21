@@ -1,6 +1,7 @@
 <!-- DETAIL -->
 <section class="detail">
 	<h2 class="title-section">Detail user</h2>
+	<% if user_signed_in? %>
 	<div class="content-section">
 		<div class="detail-content center-width">
 			<h3>User Log</h3>
@@ -96,6 +97,11 @@
 			</table>
 		</div>
 	</div>
+	<% else%>
+		<div class="sign-in-plz">
+			<p class="sign-in">Please Sign in</p>
+		</div>
+	<% end%>
 </section>
 <script type="text/javascript">
 	$(document).ready(function() {
