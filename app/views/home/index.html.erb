@@ -62,17 +62,27 @@
 				<hr />
 				<div class="inline">
 					<span class="label-infor">You can see source code on</span>
-					<a href="http://ngocquyhoang.github.io/"><i class="fa fa-github"></i></a>
+					<a href="https://github.com/ngocquyhoang/F_Centos" target="blank"><i class="fa fa-github"></i></a>
 				</div>
 				<div class="inline">
 					<span class="label-infor">Find us on</span>
-					<a href="https://www.facebook.com/ngocquyhoang.93"><i class="fa fa-facebook" id="facebook"></i></a>
+					<a href="https://www.facebook.com/ngocquyhoang.93" target="blank"><i class="fa fa-facebook" id="facebook"></i></a>
 				</div>
 				<div class="inline">
 					<span class="label-infor">or Follow us on</span>
-					<a href="https://twitter.com/malloryandbob"><i class="fa fa-twitter" id="twitter"></i></a>
+					<a href="https://twitter.com/malloryandbob" target="blank"><i class="fa fa-twitter" id="twitter"></i></a>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
+<script type="text/javascript">
+	$(document).ready(function() {
+		SetWidthValue();
+		SetContentHeightValue();
+		$(".content-section").mCustomScrollbar({theme:"light-thin",scrollButtons:{enable:true}});
+		ShowSocialView();
+		$(".left-slider li.home i").addClass('active-icon');
+		$(".left-slider li.home").addClass('active');
+	});	
+</script>

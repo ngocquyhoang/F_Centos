@@ -29,6 +29,9 @@
 	font-style:normal;
 }
 /*SETTING FOR ALL*/
+html{
+	overflow: hidden;
+}
 input:focus{
 	box-shadow: 0 0 6px #007AFF;
 }
@@ -132,8 +135,8 @@ section.home .content-section .home-content .signin-form-box{
 	position: fixed;
 	top: 0px;
 	left: 0px;
-	background-color: rgba(97, 210, 254, 0.6);
-	background-image: url('Logo.png');
+	background-color: rgba(0, 0, 0, 0.6);
+	background-image: url('Background-login.png');
 	width: 100%;
 	height: 100%;
 	display: none;
@@ -285,6 +288,10 @@ section.blog .blog-post-list .blog-post-content{
 	text-align: center;
 	margin-bottom: 10px;
 	margin-top: 30px;
+	color: #fff;
+}
+.blog-post-content a:hover{
+	text-decoration: none;
 }
 .time-post{
 	text-align: center;
@@ -346,7 +353,7 @@ section.about-us .about-member .team-member{
 section.about-us .about-member .team-member li{
 	clear: both;
 	display: inline-block;
-	width: 350px;
+	width: 330px;
 	position: relative;
 	padding: 10px 0px;
 }

@@ -16,21 +16,6 @@
 //= require_tree .
 // Javascript
 $( document ).ready(function() {
-	// get and set width for content
-	// setting home page
-	// $('section.home').show(); 
-	// none scroll
-	$('html').css('overflow', 'hidden');
-	SetWidthValue();
-	$(".content-section").mCustomScrollbar({theme:"light-thin",scrollButtons:{enable:true}});
-	SetContentHeightValue();
-	ShowSocialView();
-	$(".footer .button-control .fa-arrow-circle-left").click( function () {
-		// SetViewbyBackButton();
-	});
-	$(".footer .button-control .fa-arrow-circle-right").click( function () {
-		// SetViewbyNextButton();
-	});
 	$("section.home .content-section .home-content button").click(function () {
 		SigninForm();
 	});
@@ -46,9 +31,21 @@ $( window ).resize(function() {
 	SetContentHeightValue();
 });
 // function define
+
+// Set view by click to icon 
+// function SetViewbyClick () {
+// 	$(".left-slider li").each(function() {
+// 		$(this).click(function() {
+// 			var className = $(this).attr('class');
+// 			alert(className);
+// 			// $(".left-slider li." + className).addClass('active');
+// 		});
+// 	});
+// };
+
 function SetWidthValue () {
 	var width_vale = $(window).width();
-  $(".main-content").width(width_vale - 45);
+ 	 $(".main-content").width(width_vale - 45);
 };
 // function set height content value
 function SetContentHeightValue () {

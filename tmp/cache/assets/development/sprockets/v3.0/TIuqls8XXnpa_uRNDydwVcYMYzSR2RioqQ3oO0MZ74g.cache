@@ -1,0 +1,8 @@
+I"|(function() {
+  $(document).ready(function() {
+    SetWidthValue();
+    SetContentHeightValue();
+  });
+
+}).call(this);
+:ET
