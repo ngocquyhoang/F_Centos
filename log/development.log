@@ -26696,3 +26696,1787 @@ Completed 200 OK in 105ms (Views: 104.7ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/assets/social-background-text-show.jpg" for 127.0.0.1 at 2015-11-21 17:49:14 +0700
+
+
+Started GET "/home" for 127.0.0.1 at 2015-11-21 17:54:13 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 111ms (Views: 111.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-11-21 17:55:39 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 248ms (Views: 247.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 17:55:40 +0700
+
+
+Started GET "/assets/blog.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 17:55:40 +0700
+
+
+Started GET "/assets/font-awesome-animation.self-58af23be6925c8035fc0fb75d4e750d1c40791f4b218f058753ec10fd4993669.css?body=1" for 127.0.0.1 at 2015-11-21 17:55:40 +0700
+
+
+Started GET "/assets/hover.self-b0b2e6a05f61c976461a3bbec5f749269e0e3cdc86a06d7064122ac8f61aa9d4.css?body=1" for 127.0.0.1 at 2015-11-21 17:55:40 +0700
+
+
+Started GET "/assets/contact.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 17:55:40 +0700
+
+
+Started GET "/assets/component.self-647885c109adb50230ba359a64c56e62bfb9fae22096f7dc749d5ebed0d110a4.css?body=1" for 127.0.0.1 at 2015-11-21 17:55:40 +0700
+
+
+Started GET "/assets/jquery.mCustomScrollbar.self-bfe21ddda1c6e4f777dae532c9b0cd8533af5c1d3b47e1598b557510961a1af4.css?body=1" for 127.0.0.1 at 2015-11-21 17:55:40 +0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 17:55:40 +0700
+
+
+Started GET "/assets/setting.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 17:55:40 +0700
+
+
+Started GET "/assets/application.self-bda175d6c7d67f2595b8ebc42218e557367200828195b4cdf4d6fa596c75b132.css?body=1" for 127.0.0.1 at 2015-11-21 17:55:40 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-11-21 17:55:40 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-11-21 17:55:40 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-11-21 17:55:40 +0700
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 17:55:40 +0700
+
+
+Started GET "/assets/blog.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 17:55:40 +0700
+
+
+Started GET "/assets/contact.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 17:55:40 +0700
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 127.0.0.1 at 2015-11-21 17:55:40 +0700
+
+
+Started GET "/assets/jquery-ui.self-5d5966d1ab2597d60908c378f45d4e1efe2a56a0357773ef30c0daf2104907a2.js?body=1" for 127.0.0.1 at 2015-11-21 17:55:40 +0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 17:55:40 +0700
+
+
+Started GET "/assets/jquery.mCustomScrollbar.concat.min.self-967bde5751d8f3c7c697674d0159c95ece0d345603a37547126ad432b0c2f4b2.js?body=1" for 127.0.0.1 at 2015-11-21 17:55:40 +0700
+
+
+Started GET "/assets/jquery.mCustomScrollbar.self-c58108a73b577cc92c3bfba49011b265030da332265f5037d7d14b193488b7b5.js?body=1" for 127.0.0.1 at 2015-11-21 17:55:40 +0700
+
+
+Started GET "/assets/modernizr.custom.self-4ba57823d14b247de2a0190199e4ee1dec32ae9c69f9321b32b10b0caada8503.js?body=1" for 127.0.0.1 at 2015-11-21 17:55:40 +0700
+
+
+Started GET "/assets/setting.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 17:55:40 +0700
+
+
+Started GET "/assets/toucheffects.self-5c942c848bb57b795a9aa73d0abf13cbb9cac4da6f6dca5d6f490d21bc5a1658.js?body=1" for 127.0.0.1 at 2015-11-21 17:55:40 +0700
+
+
+Started GET "/assets/application.self-c644d38158dcceed072b81ffd8c4a8f2e7100bb8a05f86edf7f827910fa242f7.js?body=1" for 127.0.0.1 at 2015-11-21 17:55:40 +0700
+
+
+Started GET "/assets/Logo.png" for 127.0.0.1 at 2015-11-21 17:55:40 +0700
+
+
+Started GET "/assets/close-button-thin.png" for 127.0.0.1 at 2015-11-21 17:55:40 +0700
+
+
+Started GET "/assets/close-light.png" for 127.0.0.1 at 2015-11-21 17:55:40 +0700
+
+
+Started GET "/assets/github.jpg" for 127.0.0.1 at 2015-11-21 17:55:40 +0700
+
+
+Started GET "/assets/left.jpg" for 127.0.0.1 at 2015-11-21 17:55:40 +0700
+
+
+Started GET "/assets/linotte-light.ttf" for 127.0.0.1 at 2015-11-21 17:55:40 +0700
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2015-11-21 17:55:40 +0700
+
+
+Started GET "/assets/Background-login.png" for 127.0.0.1 at 2015-11-21 17:55:40 +0700
+
+
+Started GET "/blog" for 127.0.0.1 at 2015-11-21 17:55:42 +0700
+Processing by BlogController#index as HTML
+  Rendered blog/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 109ms (Views: 108.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/most-influential-books.jpg" for 127.0.0.1 at 2015-11-21 17:55:42 +0700
+
+
+Started GET "/assets/178891861.jpg" for 127.0.0.1 at 2015-11-21 17:55:42 +0700
+
+
+Started GET "/assets/fashion.jpg" for 127.0.0.1 at 2015-11-21 17:55:42 +0700
+
+
+Started GET "/home" for 127.0.0.1 at 2015-11-21 17:55:43 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 125ms (Views: 124.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/social-background-text-show.jpg" for 127.0.0.1 at 2015-11-21 17:56:55 +0700
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2015-11-21 17:57:02 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-21 20:20:19 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 853ms (Views: 839.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Logo.png" for 127.0.0.1 at 2015-11-21 20:20:21 +0700
+
+
+Started GET "/assets/close-button-thin.png" for 127.0.0.1 at 2015-11-21 20:20:21 +0700
+
+
+Started GET "/assets/close-light.png" for 127.0.0.1 at 2015-11-21 20:20:21 +0700
+
+
+Started GET "/assets/github.jpg" for 127.0.0.1 at 2015-11-21 20:20:21 +0700
+
+
+Started GET "/assets/linotte-light.ttf" for 127.0.0.1 at 2015-11-21 20:20:21 +0700
+
+
+Started GET "/assets/left.jpg" for 127.0.0.1 at 2015-11-21 20:20:21 +0700
+
+
+Started GET "/assets/Background-login.png" for 127.0.0.1 at 2015-11-21 20:20:21 +0700
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2015-11-21 20:20:21 +0700
+
+
+Started GET "/assets/mCSB_buttons.png" for 127.0.0.1 at 2015-11-21 20:20:21 +0700
+
+ActionController::RoutingError (No route matches [GET] "/assets/mCSB_buttons.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.6ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (28.9ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (90.3ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (43.7ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (87.1ms)
+
+
+Started GET "/blog" for 127.0.0.1 at 2015-11-21 20:20:26 +0700
+Processing by BlogController#index as HTML
+  Rendered blog/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 103ms (Views: 102.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/most-influential-books.jpg" for 127.0.0.1 at 2015-11-21 20:20:26 +0700
+
+
+Started GET "/assets/178891861.jpg" for 127.0.0.1 at 2015-11-21 20:20:26 +0700
+
+
+Started GET "/assets/fashion.jpg" for 127.0.0.1 at 2015-11-21 20:20:26 +0700
+
+
+Started GET "/assets/social-background-text-show.jpg" for 127.0.0.1 at 2015-11-21 20:20:28 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-21 20:34:17 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 120ms (Views: 119.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Logo.png" for 127.0.0.1 at 2015-11-21 20:34:17 +0700
+
+
+Started GET "/assets/close-button-thin.png" for 127.0.0.1 at 2015-11-21 20:34:17 +0700
+
+
+Started GET "/assets/close-light.png" for 127.0.0.1 at 2015-11-21 20:34:17 +0700
+
+
+Started GET "/assets/github.jpg" for 127.0.0.1 at 2015-11-21 20:34:17 +0700
+
+
+Started GET "/assets/left.jpg" for 127.0.0.1 at 2015-11-21 20:34:17 +0700
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2015-11-21 20:34:17 +0700
+
+
+Started GET "/assets/linotte-light.ttf" for 127.0.0.1 at 2015-11-21 20:34:17 +0700
+
+
+Started GET "/assets/Background-login.png" for 127.0.0.1 at 2015-11-21 20:34:17 +0700
+
+
+Started GET "/assets/mCSB_buttons.png" for 127.0.0.1 at 2015-11-21 20:34:17 +0700
+
+ActionController::RoutingError (No route matches [GET] "/assets/mCSB_buttons.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (29.5ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.8ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (37.3ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (80.3ms)
+
+
+Started GET "/assets/social-background-text-show.jpg" for 127.0.0.1 at 2015-11-21 20:38:38 +0700
+
+
+Started GET "/assets/twitter.jpg" for 127.0.0.1 at 2015-11-21 20:38:38 +0700
+
+
+Started GET "/blog" for 127.0.0.1 at 2015-11-21 20:39:36 +0700
+Processing by BlogController#index as HTML
+  Rendered blog/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 97ms (Views: 96.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/github.jpg" for 127.0.0.1 at 2015-11-21 20:39:37 +0700
+
+
+Started GET "/assets/most-influential-books.jpg" for 127.0.0.1 at 2015-11-21 20:39:37 +0700
+
+
+Started GET "/assets/178891861.jpg" for 127.0.0.1 at 2015-11-21 20:39:37 +0700
+
+
+Started GET "/assets/fashion.jpg" for 127.0.0.1 at 2015-11-21 20:39:37 +0700
+
+
+Started GET "/setting" for 127.0.0.1 at 2015-11-21 20:39:39 +0700
+Processing by SettingController#index as HTML
+  Rendered setting/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 116ms (Views: 115.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-11-21 20:39:41 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 109ms (Views: 108.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-11-21 20:43:18 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 107ms (Views: 106.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 20:43:18 +0700
+
+
+Started GET "/assets/blog.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 20:43:18 +0700
+
+
+Started GET "/assets/font-awesome-animation.self-58af23be6925c8035fc0fb75d4e750d1c40791f4b218f058753ec10fd4993669.css?body=1" for 127.0.0.1 at 2015-11-21 20:43:18 +0700
+
+
+Started GET "/assets/component.self-647885c109adb50230ba359a64c56e62bfb9fae22096f7dc749d5ebed0d110a4.css?body=1" for 127.0.0.1 at 2015-11-21 20:43:18 +0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 20:43:18 +0700
+
+
+Started GET "/assets/contact.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 20:43:18 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-11-21 20:43:18 +0700
+
+
+Started GET "/assets/setting.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 20:43:18 +0700
+
+
+Started GET "/assets/hover.self-b0b2e6a05f61c976461a3bbec5f749269e0e3cdc86a06d7064122ac8f61aa9d4.css?body=1" for 127.0.0.1 at 2015-11-21 20:43:18 +0700
+
+
+Started GET "/assets/application.self-bda175d6c7d67f2595b8ebc42218e557367200828195b4cdf4d6fa596c75b132.css?body=1" for 127.0.0.1 at 2015-11-21 20:43:18 +0700
+
+
+Started GET "/assets/jquery.mCustomScrollbar.self-bfe21ddda1c6e4f777dae532c9b0cd8533af5c1d3b47e1598b557510961a1af4.css?body=1" for 127.0.0.1 at 2015-11-21 20:43:18 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-11-21 20:43:18 +0700
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 127.0.0.1 at 2015-11-21 20:43:18 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-11-21 20:43:18 +0700
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 20:43:18 +0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 20:43:18 +0700
+
+
+Started GET "/assets/contact.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 20:43:18 +0700
+
+
+Started GET "/assets/blog.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 20:43:18 +0700
+
+
+Started GET "/assets/jquery-ui.self-5d5966d1ab2597d60908c378f45d4e1efe2a56a0357773ef30c0daf2104907a2.js?body=1" for 127.0.0.1 at 2015-11-21 20:43:18 +0700
+
+
+Started GET "/assets/jquery.mCustomScrollbar.self-c58108a73b577cc92c3bfba49011b265030da332265f5037d7d14b193488b7b5.js?body=1" for 127.0.0.1 at 2015-11-21 20:43:18 +0700
+
+
+Started GET "/assets/jquery.mCustomScrollbar.concat.min.self-967bde5751d8f3c7c697674d0159c95ece0d345603a37547126ad432b0c2f4b2.js?body=1" for 127.0.0.1 at 2015-11-21 20:43:18 +0700
+
+
+Started GET "/assets/modernizr.custom.self-4ba57823d14b247de2a0190199e4ee1dec32ae9c69f9321b32b10b0caada8503.js?body=1" for 127.0.0.1 at 2015-11-21 20:43:18 +0700
+
+
+Started GET "/assets/setting.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 20:43:18 +0700
+
+
+Started GET "/assets/toucheffects.self-5c942c848bb57b795a9aa73d0abf13cbb9cac4da6f6dca5d6f490d21bc5a1658.js?body=1" for 127.0.0.1 at 2015-11-21 20:43:18 +0700
+
+
+Started GET "/assets/Logo.png" for 127.0.0.1 at 2015-11-21 20:43:18 +0700
+
+
+Started GET "/assets/application.self-c644d38158dcceed072b81ffd8c4a8f2e7100bb8a05f86edf7f827910fa242f7.js?body=1" for 127.0.0.1 at 2015-11-21 20:43:18 +0700
+
+
+Started GET "/assets/close-button-thin.png" for 127.0.0.1 at 2015-11-21 20:43:18 +0700
+
+
+Started GET "/assets/close-light.png" for 127.0.0.1 at 2015-11-21 20:43:18 +0700
+
+
+Started GET "/assets/github.jpg" for 127.0.0.1 at 2015-11-21 20:43:18 +0700
+
+
+Started GET "/assets/left.jpg" for 127.0.0.1 at 2015-11-21 20:43:19 +0700
+
+
+Started GET "/assets/linotte-light.ttf" for 127.0.0.1 at 2015-11-21 20:43:19 +0700
+
+
+Started GET "/assets/Background-login.png" for 127.0.0.1 at 2015-11-21 20:43:19 +0700
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2015-11-21 20:43:19 +0700
+
+
+Started GET "/blog" for 127.0.0.1 at 2015-11-21 20:43:50 +0700
+Processing by BlogController#index as HTML
+  Rendered blog/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 109ms (Views: 108.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fashion.jpg" for 127.0.0.1 at 2015-11-21 20:43:50 +0700
+
+
+Started GET "/assets/178891861.jpg" for 127.0.0.1 at 2015-11-21 20:43:50 +0700
+
+
+Started GET "/assets/most-influential-books.jpg" for 127.0.0.1 at 2015-11-21 20:43:50 +0700
+
+
+Started GET "/setting" for 127.0.0.1 at 2015-11-21 20:43:51 +0700
+Processing by SettingController#index as HTML
+  Rendered setting/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 124ms (Views: 123.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-11-21 20:43:52 +0700
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 138ms (Views: 137.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/6.jpg" for 127.0.0.1 at 2015-11-21 20:43:53 +0700
+
+
+Started GET "/assets/4.jpg" for 127.0.0.1 at 2015-11-21 20:43:53 +0700
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2015-11-21 20:43:53 +0700
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2015-11-21 20:43:53 +0700
+
+
+Started GET "/assets/5.jpg" for 127.0.0.1 at 2015-11-21 20:43:53 +0700
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2015-11-21 20:43:53 +0700
+
+
+Started GET "/assets/team.jpg" for 127.0.0.1 at 2015-11-21 20:43:53 +0700
+
+
+Started GET "/contact" for 127.0.0.1 at 2015-11-21 20:43:54 +0700
+Processing by ContactController#index as HTML
+  Rendered contact/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 135ms (Views: 134.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-11-21 20:43:55 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 122ms (Views: 121.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-11-21 20:49:43 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 255ms (Views: 254.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 20:49:43 +0700
+
+
+Started GET "/assets/contact.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 20:49:43 +0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 20:49:43 +0700
+
+
+Started GET "/assets/component.self-647885c109adb50230ba359a64c56e62bfb9fae22096f7dc749d5ebed0d110a4.css?body=1" for 127.0.0.1 at 2015-11-21 20:49:43 +0700
+
+
+Started GET "/assets/blog.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 20:49:43 +0700
+
+
+Started GET "/assets/font-awesome-animation.self-58af23be6925c8035fc0fb75d4e750d1c40791f4b218f058753ec10fd4993669.css?body=1" for 127.0.0.1 at 2015-11-21 20:49:43 +0700
+
+
+Started GET "/assets/hover.self-b0b2e6a05f61c976461a3bbec5f749269e0e3cdc86a06d7064122ac8f61aa9d4.css?body=1" for 127.0.0.1 at 2015-11-21 20:49:43 +0700
+
+
+Started GET "/assets/jquery.mCustomScrollbar.self-bfe21ddda1c6e4f777dae532c9b0cd8533af5c1d3b47e1598b557510961a1af4.css?body=1" for 127.0.0.1 at 2015-11-21 20:49:43 +0700
+
+
+Started GET "/assets/setting.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 20:49:43 +0700
+
+
+Started GET "/assets/application.self-bda175d6c7d67f2595b8ebc42218e557367200828195b4cdf4d6fa596c75b132.css?body=1" for 127.0.0.1 at 2015-11-21 20:49:43 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-11-21 20:49:43 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-11-21 20:49:43 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-11-21 20:49:43 +0700
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 20:49:43 +0700
+
+
+Started GET "/assets/blog.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 20:49:43 +0700
+
+
+Started GET "/assets/contact.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 20:49:43 +0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 20:49:43 +0700
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 127.0.0.1 at 2015-11-21 20:49:43 +0700
+
+
+Started GET "/assets/jquery-ui.self-5d5966d1ab2597d60908c378f45d4e1efe2a56a0357773ef30c0daf2104907a2.js?body=1" for 127.0.0.1 at 2015-11-21 20:49:43 +0700
+
+
+Started GET "/assets/jquery.mCustomScrollbar.concat.min.self-967bde5751d8f3c7c697674d0159c95ece0d345603a37547126ad432b0c2f4b2.js?body=1" for 127.0.0.1 at 2015-11-21 20:49:43 +0700
+
+
+Started GET "/assets/jquery.mCustomScrollbar.self-c58108a73b577cc92c3bfba49011b265030da332265f5037d7d14b193488b7b5.js?body=1" for 127.0.0.1 at 2015-11-21 20:49:43 +0700
+
+
+Started GET "/assets/modernizr.custom.self-4ba57823d14b247de2a0190199e4ee1dec32ae9c69f9321b32b10b0caada8503.js?body=1" for 127.0.0.1 at 2015-11-21 20:49:43 +0700
+
+
+Started GET "/assets/toucheffects.self-5c942c848bb57b795a9aa73d0abf13cbb9cac4da6f6dca5d6f490d21bc5a1658.js?body=1" for 127.0.0.1 at 2015-11-21 20:49:43 +0700
+
+
+Started GET "/assets/setting.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 20:49:43 +0700
+
+
+Started GET "/assets/application.self-c644d38158dcceed072b81ffd8c4a8f2e7100bb8a05f86edf7f827910fa242f7.js?body=1" for 127.0.0.1 at 2015-11-21 20:49:43 +0700
+
+
+Started GET "/assets/Logo.png" for 127.0.0.1 at 2015-11-21 20:49:43 +0700
+
+
+Started GET "/assets/close-button-thin.png" for 127.0.0.1 at 2015-11-21 20:49:43 +0700
+
+
+Started GET "/assets/close-light.png" for 127.0.0.1 at 2015-11-21 20:49:43 +0700
+
+
+Started GET "/assets/github.jpg" for 127.0.0.1 at 2015-11-21 20:49:43 +0700
+
+
+Started GET "/assets/left.jpg" for 127.0.0.1 at 2015-11-21 20:49:44 +0700
+
+
+Started GET "/assets/linotte-light.ttf" for 127.0.0.1 at 2015-11-21 20:49:44 +0700
+
+
+Started GET "/assets/Background-login.png" for 127.0.0.1 at 2015-11-21 20:49:44 +0700
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2015-11-21 20:49:44 +0700
+
+
+Started GET "/Logo-black.png" for 127.0.0.1 at 2015-11-21 20:49:46 +0700
+
+ActionController::RoutingError (No route matches [GET] "/Logo-black.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (31.1ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (18.2ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (38.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-11-21 20:50:42 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 193ms (Views: 192.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 20:50:43 +0700
+
+
+Started GET "/assets/component.self-647885c109adb50230ba359a64c56e62bfb9fae22096f7dc749d5ebed0d110a4.css?body=1" for 127.0.0.1 at 2015-11-21 20:50:43 +0700
+
+
+Started GET "/assets/blog.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 20:50:43 +0700
+
+
+Started GET "/assets/font-awesome-animation.self-58af23be6925c8035fc0fb75d4e750d1c40791f4b218f058753ec10fd4993669.css?body=1" for 127.0.0.1 at 2015-11-21 20:50:43 +0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 20:50:43 +0700
+
+
+Started GET "/assets/hover.self-b0b2e6a05f61c976461a3bbec5f749269e0e3cdc86a06d7064122ac8f61aa9d4.css?body=1" for 127.0.0.1 at 2015-11-21 20:50:43 +0700
+
+
+Started GET "/assets/contact.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 20:50:43 +0700
+
+
+Started GET "/assets/jquery.mCustomScrollbar.self-bfe21ddda1c6e4f777dae532c9b0cd8533af5c1d3b47e1598b557510961a1af4.css?body=1" for 127.0.0.1 at 2015-11-21 20:50:43 +0700
+
+
+Started GET "/assets/setting.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 20:50:43 +0700
+
+
+Started GET "/assets/application.self-bda175d6c7d67f2595b8ebc42218e557367200828195b4cdf4d6fa596c75b132.css?body=1" for 127.0.0.1 at 2015-11-21 20:50:43 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-11-21 20:50:43 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-11-21 20:50:43 +0700
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 20:50:43 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-11-21 20:50:43 +0700
+
+
+Started GET "/assets/blog.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 20:50:43 +0700
+
+
+Started GET "/assets/contact.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 20:50:43 +0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 20:50:43 +0700
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 127.0.0.1 at 2015-11-21 20:50:43 +0700
+
+
+Started GET "/assets/jquery.mCustomScrollbar.concat.min.self-967bde5751d8f3c7c697674d0159c95ece0d345603a37547126ad432b0c2f4b2.js?body=1" for 127.0.0.1 at 2015-11-21 20:50:43 +0700
+
+
+Started GET "/assets/modernizr.custom.self-4ba57823d14b247de2a0190199e4ee1dec32ae9c69f9321b32b10b0caada8503.js?body=1" for 127.0.0.1 at 2015-11-21 20:50:43 +0700
+
+
+Started GET "/assets/jquery.mCustomScrollbar.self-c58108a73b577cc92c3bfba49011b265030da332265f5037d7d14b193488b7b5.js?body=1" for 127.0.0.1 at 2015-11-21 20:50:43 +0700
+
+
+Started GET "/assets/jquery-ui.self-5d5966d1ab2597d60908c378f45d4e1efe2a56a0357773ef30c0daf2104907a2.js?body=1" for 127.0.0.1 at 2015-11-21 20:50:43 +0700
+
+
+Started GET "/assets/setting.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 20:50:43 +0700
+
+
+Started GET "/assets/toucheffects.self-5c942c848bb57b795a9aa73d0abf13cbb9cac4da6f6dca5d6f490d21bc5a1658.js?body=1" for 127.0.0.1 at 2015-11-21 20:50:43 +0700
+
+
+Started GET "/assets/application.self-c644d38158dcceed072b81ffd8c4a8f2e7100bb8a05f86edf7f827910fa242f7.js?body=1" for 127.0.0.1 at 2015-11-21 20:50:43 +0700
+
+
+Started GET "/assets/Logo.png" for 127.0.0.1 at 2015-11-21 20:50:43 +0700
+
+
+Started GET "/assets/close-button-thin.png" for 127.0.0.1 at 2015-11-21 20:50:43 +0700
+
+
+Started GET "/assets/close-light.png" for 127.0.0.1 at 2015-11-21 20:50:43 +0700
+
+
+Started GET "/assets/github.jpg" for 127.0.0.1 at 2015-11-21 20:50:43 +0700
+
+
+Started GET "/assets/left.jpg" for 127.0.0.1 at 2015-11-21 20:50:44 +0700
+
+
+Started GET "/assets/linotte-light.ttf" for 127.0.0.1 at 2015-11-21 20:50:44 +0700
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2015-11-21 20:50:44 +0700
+
+
+Started GET "/assets/Background-login.png" for 127.0.0.1 at 2015-11-21 20:50:44 +0700
+
+
+Started GET "/assets/Logo-black.png" for 127.0.0.1 at 2015-11-21 20:50:46 +0700
+
+
+Started GET "/blog" for 127.0.0.1 at 2015-11-21 20:51:20 +0700
+Processing by BlogController#index as HTML
+  Rendered blog/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 119ms (Views: 118.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fashion.jpg" for 127.0.0.1 at 2015-11-21 20:51:20 +0700
+
+
+Started GET "/assets/most-influential-books.jpg" for 127.0.0.1 at 2015-11-21 20:51:20 +0700
+
+
+Started GET "/assets/178891861.jpg" for 127.0.0.1 at 2015-11-21 20:51:20 +0700
+
+
+Started GET "/setting" for 127.0.0.1 at 2015-11-21 20:51:22 +0700
+Processing by SettingController#index as HTML
+  Rendered setting/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 111ms (Views: 110.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-11-21 20:51:34 +0700
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 126ms (Views: 125.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2015-11-21 20:51:34 +0700
+
+
+Started GET "/assets/6.jpg" for 127.0.0.1 at 2015-11-21 20:51:34 +0700
+
+
+Started GET "/assets/4.jpg" for 127.0.0.1 at 2015-11-21 20:51:34 +0700
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2015-11-21 20:51:34 +0700
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2015-11-21 20:51:34 +0700
+
+
+Started GET "/assets/team.jpg" for 127.0.0.1 at 2015-11-21 20:51:34 +0700
+
+
+Started GET "/assets/5.jpg" for 127.0.0.1 at 2015-11-21 20:51:34 +0700
+
+
+Started GET "/contact" for 127.0.0.1 at 2015-11-21 20:51:37 +0700
+Processing by ContactController#index as HTML
+  Rendered contact/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 113ms (Views: 112.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-11-21 20:51:39 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 128ms (Views: 126.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog" for 127.0.0.1 at 2015-11-21 20:51:40 +0700
+Processing by BlogController#index as HTML
+  Rendered blog/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 105ms (Views: 104.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/setting" for 127.0.0.1 at 2015-11-21 20:51:41 +0700
+Processing by SettingController#index as HTML
+  Rendered setting/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 134ms (Views: 133.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog" for 127.0.0.1 at 2015-11-21 20:51:44 +0700
+Processing by BlogController#index as HTML
+  Rendered blog/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 110ms (Views: 109.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/setting" for 127.0.0.1 at 2015-11-21 20:51:45 +0700
+Processing by SettingController#index as HTML
+  Rendered setting/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 108ms (Views: 108.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-11-21 20:51:46 +0700
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 109ms (Views: 108.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2015-11-21 20:52:24 +0700
+Processing by ContactController#index as HTML
+  Rendered contact/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 130ms (Views: 129.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-11-21 20:53:02 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 106ms (Views: 105.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog" for 127.0.0.1 at 2015-11-21 20:53:45 +0700
+Processing by BlogController#index as HTML
+  Rendered blog/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 108ms (Views: 107.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/setting" for 127.0.0.1 at 2015-11-21 20:53:46 +0700
+Processing by SettingController#index as HTML
+  Rendered setting/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 119ms (Views: 118.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-11-21 20:53:47 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 125ms (Views: 124.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/setting" for 127.0.0.1 at 2015-11-21 20:53:47 +0700
+Processing by SettingController#index as HTML
+  Rendered setting/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 129ms (Views: 128.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2015-11-21 20:53:48 +0700
+Processing by ContactController#index as HTML
+  Rendered contact/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 112ms (Views: 111.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-11-21 20:53:49 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 112ms (Views: 111.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/social-background-text-show.jpg" for 127.0.0.1 at 2015-11-21 20:53:53 +0700
+
+
+Started GET "/assets/twitter.jpg" for 127.0.0.1 at 2015-11-21 20:53:53 +0700
+
+
+Started GET "/assets/google-plus.jpg" for 127.0.0.1 at 2015-11-21 20:53:57 +0700
+
+
+Started GET "/assets/facebook.jpg" for 127.0.0.1 at 2015-11-21 20:54:13 +0700
+
+
+Started GET "/blog" for 127.0.0.1 at 2015-11-21 20:54:44 +0700
+Processing by BlogController#index as HTML
+  Rendered blog/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 113ms (Views: 112.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/setting" for 127.0.0.1 at 2015-11-21 20:54:58 +0700
+Processing by SettingController#index as HTML
+  Rendered setting/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 128ms (Views: 127.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-11-21 20:55:13 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 103ms (Views: 102.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-11-21 21:02:24 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 158ms (Views: 157.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/component.self-647885c109adb50230ba359a64c56e62bfb9fae22096f7dc749d5ebed0d110a4.css?body=1" for 127.0.0.1 at 2015-11-21 21:02:24 +0700
+
+
+Started GET "/assets/blog.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 21:02:24 +0700
+
+
+Started GET "/assets/about.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 21:02:24 +0700
+
+
+Started GET "/assets/contact.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 21:02:24 +0700
+
+
+Started GET "/assets/font-awesome-animation.self-58af23be6925c8035fc0fb75d4e750d1c40791f4b218f058753ec10fd4993669.css?body=1" for 127.0.0.1 at 2015-11-21 21:02:24 +0700
+
+
+Started GET "/assets/jquery.mCustomScrollbar.self-bfe21ddda1c6e4f777dae532c9b0cd8533af5c1d3b47e1598b557510961a1af4.css?body=1" for 127.0.0.1 at 2015-11-21 21:02:24 +0700
+
+
+Started GET "/assets/hover.self-b0b2e6a05f61c976461a3bbec5f749269e0e3cdc86a06d7064122ac8f61aa9d4.css?body=1" for 127.0.0.1 at 2015-11-21 21:02:24 +0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 21:02:24 +0700
+
+
+Started GET "/assets/application.self-0ba097b8d04dddf5a13485ccb5125af0f024086603bad1bdcff54f992e306fd7.css?body=1" for 127.0.0.1 at 2015-11-21 21:02:24 +0700
+
+
+Started GET "/assets/setting.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 21:02:24 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-11-21 21:02:24 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-11-21 21:02:24 +0700
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 21:02:25 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-11-21 21:02:25 +0700
+
+
+Started GET "/assets/blog.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 21:02:25 +0700
+
+
+Started GET "/assets/contact.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 21:02:25 +0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 21:02:25 +0700
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 127.0.0.1 at 2015-11-21 21:02:25 +0700
+
+
+Started GET "/assets/jquery.mCustomScrollbar.self-c58108a73b577cc92c3bfba49011b265030da332265f5037d7d14b193488b7b5.js?body=1" for 127.0.0.1 at 2015-11-21 21:02:25 +0700
+
+
+Started GET "/assets/modernizr.custom.self-4ba57823d14b247de2a0190199e4ee1dec32ae9c69f9321b32b10b0caada8503.js?body=1" for 127.0.0.1 at 2015-11-21 21:02:25 +0700
+
+
+Started GET "/assets/jquery-ui.self-5d5966d1ab2597d60908c378f45d4e1efe2a56a0357773ef30c0daf2104907a2.js?body=1" for 127.0.0.1 at 2015-11-21 21:02:25 +0700
+
+
+Started GET "/assets/jquery.mCustomScrollbar.concat.min.self-967bde5751d8f3c7c697674d0159c95ece0d345603a37547126ad432b0c2f4b2.js?body=1" for 127.0.0.1 at 2015-11-21 21:02:25 +0700
+
+
+Started GET "/assets/setting.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 21:02:25 +0700
+
+
+Started GET "/assets/toucheffects.self-5c942c848bb57b795a9aa73d0abf13cbb9cac4da6f6dca5d6f490d21bc5a1658.js?body=1" for 127.0.0.1 at 2015-11-21 21:02:25 +0700
+
+
+Started GET "/assets/application.self-c644d38158dcceed072b81ffd8c4a8f2e7100bb8a05f86edf7f827910fa242f7.js?body=1" for 127.0.0.1 at 2015-11-21 21:02:25 +0700
+
+
+Started GET "/assets/Logo.png" for 127.0.0.1 at 2015-11-21 21:02:25 +0700
+
+
+Started GET "/assets/close-button-thin.png" for 127.0.0.1 at 2015-11-21 21:02:25 +0700
+
+
+Started GET "/assets/close-light.png" for 127.0.0.1 at 2015-11-21 21:02:25 +0700
+
+
+Started GET "/assets/github.jpg" for 127.0.0.1 at 2015-11-21 21:02:25 +0700
+
+
+Started GET "/assets/left.jpg" for 127.0.0.1 at 2015-11-21 21:02:25 +0700
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2015-11-21 21:02:26 +0700
+
+
+Started GET "/assets/Background-login.png" for 127.0.0.1 at 2015-11-21 21:02:26 +0700
+
+
+Started GET "/assets/linotte-light.ttf" for 127.0.0.1 at 2015-11-21 21:02:26 +0700
+
+
+Started GET "/assets/mCSB_buttons.png" for 127.0.0.1 at 2015-11-21 21:02:26 +0700
+
+ActionController::RoutingError (No route matches [GET] "/assets/mCSB_buttons.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (34.1ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (25.5ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/quyhn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (48.7ms)
+
+
+Started GET "/assets/Logo-black.png" for 127.0.0.1 at 2015-11-21 21:02:26 +0700
+
+
+Started GET "/home" for 127.0.0.1 at 2015-11-21 21:03:41 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 175ms (Views: 174.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 21:03:41 +0700
+
+
+Started GET "/assets/blog.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 21:03:41 +0700
+
+
+Started GET "/assets/application.self-f7f0d6fb137965cec0b88991fe41f10a497437ad473082f8677bcc55a88c0ca7.css?body=1" for 127.0.0.1 at 2015-11-21 21:03:41 +0700
+
+
+Started GET "/assets/component.self-647885c109adb50230ba359a64c56e62bfb9fae22096f7dc749d5ebed0d110a4.css?body=1" for 127.0.0.1 at 2015-11-21 21:03:41 +0700
+
+
+Started GET "/assets/font-awesome-animation.self-58af23be6925c8035fc0fb75d4e750d1c40791f4b218f058753ec10fd4993669.css?body=1" for 127.0.0.1 at 2015-11-21 21:03:41 +0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 21:03:41 +0700
+
+
+Started GET "/assets/hover.self-b0b2e6a05f61c976461a3bbec5f749269e0e3cdc86a06d7064122ac8f61aa9d4.css?body=1" for 127.0.0.1 at 2015-11-21 21:03:41 +0700
+
+
+Started GET "/assets/contact.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 21:03:41 +0700
+
+
+Started GET "/assets/jquery.mCustomScrollbar.self-bfe21ddda1c6e4f777dae532c9b0cd8533af5c1d3b47e1598b557510961a1af4.css?body=1" for 127.0.0.1 at 2015-11-21 21:03:41 +0700
+
+
+Started GET "/assets/setting.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 21:03:42 +0700
+
+
+Started GET "/assets/blog.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 21:03:42 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-11-21 21:03:42 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-11-21 21:03:42 +0700
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 21:03:42 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-11-21 21:03:42 +0700
+
+
+Started GET "/assets/contact.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 21:03:42 +0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 21:03:42 +0700
+
+
+Started GET "/assets/jquery-ui.self-5d5966d1ab2597d60908c378f45d4e1efe2a56a0357773ef30c0daf2104907a2.js?body=1" for 127.0.0.1 at 2015-11-21 21:03:42 +0700
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 127.0.0.1 at 2015-11-21 21:03:42 +0700
+
+
+Started GET "/assets/jquery.mCustomScrollbar.concat.min.self-967bde5751d8f3c7c697674d0159c95ece0d345603a37547126ad432b0c2f4b2.js?body=1" for 127.0.0.1 at 2015-11-21 21:03:42 +0700
+
+
+Started GET "/assets/jquery.mCustomScrollbar.self-c58108a73b577cc92c3bfba49011b265030da332265f5037d7d14b193488b7b5.js?body=1" for 127.0.0.1 at 2015-11-21 21:03:42 +0700
+
+
+Started GET "/assets/modernizr.custom.self-4ba57823d14b247de2a0190199e4ee1dec32ae9c69f9321b32b10b0caada8503.js?body=1" for 127.0.0.1 at 2015-11-21 21:03:42 +0700
+
+
+Started GET "/assets/toucheffects.self-5c942c848bb57b795a9aa73d0abf13cbb9cac4da6f6dca5d6f490d21bc5a1658.js?body=1" for 127.0.0.1 at 2015-11-21 21:03:42 +0700
+
+
+Started GET "/assets/setting.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 21:03:42 +0700
+
+
+Started GET "/assets/application.self-c644d38158dcceed072b81ffd8c4a8f2e7100bb8a05f86edf7f827910fa242f7.js?body=1" for 127.0.0.1 at 2015-11-21 21:03:42 +0700
+
+
+Started GET "/assets/Logo.png" for 127.0.0.1 at 2015-11-21 21:03:42 +0700
+
+
+Started GET "/assets/close-button-thin.png" for 127.0.0.1 at 2015-11-21 21:03:42 +0700
+
+
+Started GET "/assets/close-light.png" for 127.0.0.1 at 2015-11-21 21:03:42 +0700
+
+
+Started GET "/assets/github.jpg" for 127.0.0.1 at 2015-11-21 21:03:42 +0700
+
+
+Started GET "/assets/left.jpg" for 127.0.0.1 at 2015-11-21 21:03:42 +0700
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2015-11-21 21:03:42 +0700
+
+
+Started GET "/assets/Background-login.png" for 127.0.0.1 at 2015-11-21 21:03:42 +0700
+
+
+Started GET "/assets/linotte-light.ttf" for 127.0.0.1 at 2015-11-21 21:03:42 +0700
+
+
+Started GET "/assets/Logo-black.png" for 127.0.0.1 at 2015-11-21 21:03:43 +0700
+
+
+Started GET "/home" for 127.0.0.1 at 2015-11-21 21:03:59 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 157ms (Views: 156.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 21:03:59 +0700
+
+
+Started GET "/assets/blog.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 21:03:59 +0700
+
+
+Started GET "/assets/component.self-647885c109adb50230ba359a64c56e62bfb9fae22096f7dc749d5ebed0d110a4.css?body=1" for 127.0.0.1 at 2015-11-21 21:03:59 +0700
+
+
+Started GET "/assets/contact.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 21:03:59 +0700
+
+
+Started GET "/assets/font-awesome-animation.self-58af23be6925c8035fc0fb75d4e750d1c40791f4b218f058753ec10fd4993669.css?body=1" for 127.0.0.1 at 2015-11-21 21:03:59 +0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 21:03:59 +0700
+
+
+Started GET "/assets/hover.self-b0b2e6a05f61c976461a3bbec5f749269e0e3cdc86a06d7064122ac8f61aa9d4.css?body=1" for 127.0.0.1 at 2015-11-21 21:03:59 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-11-21 21:03:59 +0700
+
+
+Started GET "/assets/application.self-8497ec18cfc504da76394ff12b85cc1af5549a7bdb9836fb4aecbacdca1d6ee0.css?body=1" for 127.0.0.1 at 2015-11-21 21:03:59 +0700
+
+
+Started GET "/assets/setting.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 21:03:59 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-11-21 21:03:59 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-11-21 21:03:59 +0700
+
+
+Started GET "/assets/jquery.mCustomScrollbar.self-bfe21ddda1c6e4f777dae532c9b0cd8533af5c1d3b47e1598b557510961a1af4.css?body=1" for 127.0.0.1 at 2015-11-21 21:03:59 +0700
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 21:03:59 +0700
+
+
+Started GET "/assets/blog.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 21:03:59 +0700
+
+
+Started GET "/assets/contact.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 21:03:59 +0700
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 127.0.0.1 at 2015-11-21 21:03:59 +0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 21:03:59 +0700
+
+
+Started GET "/assets/jquery-ui.self-5d5966d1ab2597d60908c378f45d4e1efe2a56a0357773ef30c0daf2104907a2.js?body=1" for 127.0.0.1 at 2015-11-21 21:03:59 +0700
+
+
+Started GET "/assets/jquery.mCustomScrollbar.self-c58108a73b577cc92c3bfba49011b265030da332265f5037d7d14b193488b7b5.js?body=1" for 127.0.0.1 at 2015-11-21 21:03:59 +0700
+
+
+Started GET "/assets/application.self-c644d38158dcceed072b81ffd8c4a8f2e7100bb8a05f86edf7f827910fa242f7.js?body=1" for 127.0.0.1 at 2015-11-21 21:03:59 +0700
+
+
+Started GET "/assets/jquery.mCustomScrollbar.concat.min.self-967bde5751d8f3c7c697674d0159c95ece0d345603a37547126ad432b0c2f4b2.js?body=1" for 127.0.0.1 at 2015-11-21 21:03:59 +0700
+
+
+Started GET "/assets/setting.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 21:03:59 +0700
+
+
+Started GET "/assets/modernizr.custom.self-4ba57823d14b247de2a0190199e4ee1dec32ae9c69f9321b32b10b0caada8503.js?body=1" for 127.0.0.1 at 2015-11-21 21:03:59 +0700
+
+
+Started GET "/assets/toucheffects.self-5c942c848bb57b795a9aa73d0abf13cbb9cac4da6f6dca5d6f490d21bc5a1658.js?body=1" for 127.0.0.1 at 2015-11-21 21:03:59 +0700
+
+
+Started GET "/assets/Logo.png" for 127.0.0.1 at 2015-11-21 21:03:59 +0700
+
+
+Started GET "/assets/close-button-thin.png" for 127.0.0.1 at 2015-11-21 21:03:59 +0700
+
+
+Started GET "/assets/close-light.png" for 127.0.0.1 at 2015-11-21 21:03:59 +0700
+
+
+Started GET "/assets/github.jpg" for 127.0.0.1 at 2015-11-21 21:03:59 +0700
+
+
+Started GET "/assets/left.jpg" for 127.0.0.1 at 2015-11-21 21:04:01 +0700
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2015-11-21 21:04:01 +0700
+
+
+Started GET "/assets/Background-login.png" for 127.0.0.1 at 2015-11-21 21:04:01 +0700
+
+
+Started GET "/assets/linotte-light.ttf" for 127.0.0.1 at 2015-11-21 21:04:01 +0700
+
+
+Started GET "/assets/Logo-black.png" for 127.0.0.1 at 2015-11-21 21:04:02 +0700
+
+
+Started GET "/home" for 127.0.0.1 at 2015-11-21 21:04:34 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 148ms (Views: 148.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 21:04:34 +0700
+
+
+Started GET "/assets/about.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 21:04:34 +0700
+
+
+Started GET "/assets/component.self-647885c109adb50230ba359a64c56e62bfb9fae22096f7dc749d5ebed0d110a4.css?body=1" for 127.0.0.1 at 2015-11-21 21:04:34 +0700
+
+
+Started GET "/assets/contact.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 21:04:34 +0700
+
+
+Started GET "/assets/application.self-ba02bf8bce931ea1a7374b3c3a935000e3bde4dbc770a0bef51b5aae81433a57.css?body=1" for 127.0.0.1 at 2015-11-21 21:04:34 +0700
+
+
+Started GET "/assets/font-awesome-animation.self-58af23be6925c8035fc0fb75d4e750d1c40791f4b218f058753ec10fd4993669.css?body=1" for 127.0.0.1 at 2015-11-21 21:04:34 +0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 21:04:34 +0700
+
+
+Started GET "/assets/jquery.mCustomScrollbar.self-bfe21ddda1c6e4f777dae532c9b0cd8533af5c1d3b47e1598b557510961a1af4.css?body=1" for 127.0.0.1 at 2015-11-21 21:04:34 +0700
+
+
+Started GET "/assets/setting.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 21:04:34 +0700
+
+
+Started GET "/assets/hover.self-b0b2e6a05f61c976461a3bbec5f749269e0e3cdc86a06d7064122ac8f61aa9d4.css?body=1" for 127.0.0.1 at 2015-11-21 21:04:34 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-11-21 21:04:34 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-11-21 21:04:34 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-11-21 21:04:34 +0700
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 21:04:34 +0700
+
+
+Started GET "/assets/blog.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 21:04:34 +0700
+
+
+Started GET "/assets/contact.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 21:04:34 +0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 21:04:34 +0700
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 127.0.0.1 at 2015-11-21 21:04:34 +0700
+
+
+Started GET "/assets/jquery-ui.self-5d5966d1ab2597d60908c378f45d4e1efe2a56a0357773ef30c0daf2104907a2.js?body=1" for 127.0.0.1 at 2015-11-21 21:04:34 +0700
+
+
+Started GET "/assets/jquery.mCustomScrollbar.concat.min.self-967bde5751d8f3c7c697674d0159c95ece0d345603a37547126ad432b0c2f4b2.js?body=1" for 127.0.0.1 at 2015-11-21 21:04:34 +0700
+
+
+Started GET "/assets/jquery.mCustomScrollbar.self-c58108a73b577cc92c3bfba49011b265030da332265f5037d7d14b193488b7b5.js?body=1" for 127.0.0.1 at 2015-11-21 21:04:34 +0700
+
+
+Started GET "/assets/modernizr.custom.self-4ba57823d14b247de2a0190199e4ee1dec32ae9c69f9321b32b10b0caada8503.js?body=1" for 127.0.0.1 at 2015-11-21 21:04:34 +0700
+
+
+Started GET "/assets/setting.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 21:04:34 +0700
+
+
+Started GET "/assets/application.self-c644d38158dcceed072b81ffd8c4a8f2e7100bb8a05f86edf7f827910fa242f7.js?body=1" for 127.0.0.1 at 2015-11-21 21:04:34 +0700
+
+
+Started GET "/assets/Logo.png" for 127.0.0.1 at 2015-11-21 21:04:34 +0700
+
+
+Started GET "/assets/toucheffects.self-5c942c848bb57b795a9aa73d0abf13cbb9cac4da6f6dca5d6f490d21bc5a1658.js?body=1" for 127.0.0.1 at 2015-11-21 21:04:34 +0700
+
+
+Started GET "/assets/close-button-thin.png" for 127.0.0.1 at 2015-11-21 21:04:34 +0700
+
+
+Started GET "/assets/close-light.png" for 127.0.0.1 at 2015-11-21 21:04:34 +0700
+
+
+Started GET "/assets/github.jpg" for 127.0.0.1 at 2015-11-21 21:04:34 +0700
+
+
+Started GET "/assets/left.jpg" for 127.0.0.1 at 2015-11-21 21:04:35 +0700
+
+
+Started GET "/assets/Background-login.png" for 127.0.0.1 at 2015-11-21 21:04:35 +0700
+
+
+Started GET "/assets/linotte-light.ttf" for 127.0.0.1 at 2015-11-21 21:04:35 +0700
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2015-11-21 21:04:35 +0700
+
+
+Started GET "/assets/Logo-black.png" for 127.0.0.1 at 2015-11-21 21:04:36 +0700
+
+
+Started GET "/home" for 127.0.0.1 at 2015-11-21 21:05:02 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 157ms (Views: 156.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 21:05:02 +0700
+
+
+Started GET "/assets/blog.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 21:05:02 +0700
+
+
+Started GET "/assets/application.self-834f46cd9268e9c656ea747d2c4bf961f9d36fdd21fcb7aa498633c1e20083e5.css?body=1" for 127.0.0.1 at 2015-11-21 21:05:02 +0700
+
+
+Started GET "/assets/font-awesome-animation.self-58af23be6925c8035fc0fb75d4e750d1c40791f4b218f058753ec10fd4993669.css?body=1" for 127.0.0.1 at 2015-11-21 21:05:02 +0700
+
+
+Started GET "/assets/hover.self-b0b2e6a05f61c976461a3bbec5f749269e0e3cdc86a06d7064122ac8f61aa9d4.css?body=1" for 127.0.0.1 at 2015-11-21 21:05:02 +0700
+
+
+Started GET "/assets/contact.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 21:05:02 +0700
+
+
+Started GET "/assets/component.self-647885c109adb50230ba359a64c56e62bfb9fae22096f7dc749d5ebed0d110a4.css?body=1" for 127.0.0.1 at 2015-11-21 21:05:02 +0700
+
+
+Started GET "/assets/jquery.mCustomScrollbar.self-bfe21ddda1c6e4f777dae532c9b0cd8533af5c1d3b47e1598b557510961a1af4.css?body=1" for 127.0.0.1 at 2015-11-21 21:05:02 +0700
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 21:05:02 +0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 21:05:02 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-11-21 21:05:02 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-11-21 21:05:02 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-11-21 21:05:02 +0700
+
+
+Started GET "/assets/setting.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 21:05:02 +0700
+
+
+Started GET "/assets/contact.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 21:05:02 +0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 21:05:02 +0700
+
+
+Started GET "/assets/blog.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 21:05:02 +0700
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 127.0.0.1 at 2015-11-21 21:05:02 +0700
+
+
+Started GET "/assets/jquery-ui.self-5d5966d1ab2597d60908c378f45d4e1efe2a56a0357773ef30c0daf2104907a2.js?body=1" for 127.0.0.1 at 2015-11-21 21:05:02 +0700
+
+
+Started GET "/assets/jquery.mCustomScrollbar.concat.min.self-967bde5751d8f3c7c697674d0159c95ece0d345603a37547126ad432b0c2f4b2.js?body=1" for 127.0.0.1 at 2015-11-21 21:05:02 +0700
+
+
+Started GET "/assets/jquery.mCustomScrollbar.self-c58108a73b577cc92c3bfba49011b265030da332265f5037d7d14b193488b7b5.js?body=1" for 127.0.0.1 at 2015-11-21 21:05:02 +0700
+
+
+Started GET "/assets/modernizr.custom.self-4ba57823d14b247de2a0190199e4ee1dec32ae9c69f9321b32b10b0caada8503.js?body=1" for 127.0.0.1 at 2015-11-21 21:05:02 +0700
+
+
+Started GET "/assets/toucheffects.self-5c942c848bb57b795a9aa73d0abf13cbb9cac4da6f6dca5d6f490d21bc5a1658.js?body=1" for 127.0.0.1 at 2015-11-21 21:05:02 +0700
+
+
+Started GET "/assets/application.self-c644d38158dcceed072b81ffd8c4a8f2e7100bb8a05f86edf7f827910fa242f7.js?body=1" for 127.0.0.1 at 2015-11-21 21:05:02 +0700
+
+
+Started GET "/assets/setting.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 21:05:02 +0700
+
+
+Started GET "/assets/Logo.png" for 127.0.0.1 at 2015-11-21 21:05:02 +0700
+
+
+Started GET "/assets/close-button-thin.png" for 127.0.0.1 at 2015-11-21 21:05:02 +0700
+
+
+Started GET "/assets/close-light.png" for 127.0.0.1 at 2015-11-21 21:05:02 +0700
+
+
+Started GET "/assets/github.jpg" for 127.0.0.1 at 2015-11-21 21:05:02 +0700
+
+
+Started GET "/assets/left.jpg" for 127.0.0.1 at 2015-11-21 21:05:03 +0700
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2015-11-21 21:05:03 +0700
+
+
+Started GET "/assets/linotte-light.ttf" for 127.0.0.1 at 2015-11-21 21:05:03 +0700
+
+
+Started GET "/assets/Background-login.png" for 127.0.0.1 at 2015-11-21 21:05:03 +0700
+
+
+Started GET "/assets/Logo-black.png" for 127.0.0.1 at 2015-11-21 21:05:04 +0700
+
+
+Started GET "/home" for 127.0.0.1 at 2015-11-21 21:05:22 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 160ms (Views: 159.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 21:05:22 +0700
+
+
+Started GET "/assets/blog.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 21:05:23 +0700
+
+
+Started GET "/assets/application.self-35990bffd4ab9bfb4a948297437da96cb227d1e18562803bb73819f6cede8b16.css?body=1" for 127.0.0.1 at 2015-11-21 21:05:23 +0700
+
+
+Started GET "/assets/component.self-647885c109adb50230ba359a64c56e62bfb9fae22096f7dc749d5ebed0d110a4.css?body=1" for 127.0.0.1 at 2015-11-21 21:05:23 +0700
+
+
+Started GET "/assets/contact.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 21:05:23 +0700
+
+
+Started GET "/assets/font-awesome-animation.self-58af23be6925c8035fc0fb75d4e750d1c40791f4b218f058753ec10fd4993669.css?body=1" for 127.0.0.1 at 2015-11-21 21:05:23 +0700
+
+
+Started GET "/assets/hover.self-b0b2e6a05f61c976461a3bbec5f749269e0e3cdc86a06d7064122ac8f61aa9d4.css?body=1" for 127.0.0.1 at 2015-11-21 21:05:23 +0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 21:05:23 +0700
+
+
+Started GET "/assets/jquery.mCustomScrollbar.self-bfe21ddda1c6e4f777dae532c9b0cd8533af5c1d3b47e1598b557510961a1af4.css?body=1" for 127.0.0.1 at 2015-11-21 21:05:23 +0700
+
+
+Started GET "/assets/setting.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 21:05:23 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-11-21 21:05:23 +0700
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 21:05:23 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-11-21 21:05:23 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-11-21 21:05:23 +0700
+
+
+Started GET "/assets/contact.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 21:05:23 +0700
+
+
+Started GET "/assets/blog.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 21:05:23 +0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 21:05:23 +0700
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 127.0.0.1 at 2015-11-21 21:05:23 +0700
+
+
+Started GET "/assets/jquery-ui.self-5d5966d1ab2597d60908c378f45d4e1efe2a56a0357773ef30c0daf2104907a2.js?body=1" for 127.0.0.1 at 2015-11-21 21:05:23 +0700
+
+
+Started GET "/assets/jquery.mCustomScrollbar.concat.min.self-967bde5751d8f3c7c697674d0159c95ece0d345603a37547126ad432b0c2f4b2.js?body=1" for 127.0.0.1 at 2015-11-21 21:05:23 +0700
+
+
+Started GET "/assets/jquery.mCustomScrollbar.self-c58108a73b577cc92c3bfba49011b265030da332265f5037d7d14b193488b7b5.js?body=1" for 127.0.0.1 at 2015-11-21 21:05:23 +0700
+
+
+Started GET "/assets/modernizr.custom.self-4ba57823d14b247de2a0190199e4ee1dec32ae9c69f9321b32b10b0caada8503.js?body=1" for 127.0.0.1 at 2015-11-21 21:05:23 +0700
+
+
+Started GET "/assets/setting.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 21:05:23 +0700
+
+
+Started GET "/assets/toucheffects.self-5c942c848bb57b795a9aa73d0abf13cbb9cac4da6f6dca5d6f490d21bc5a1658.js?body=1" for 127.0.0.1 at 2015-11-21 21:05:23 +0700
+
+
+Started GET "/assets/application.self-c644d38158dcceed072b81ffd8c4a8f2e7100bb8a05f86edf7f827910fa242f7.js?body=1" for 127.0.0.1 at 2015-11-21 21:05:23 +0700
+
+
+Started GET "/assets/Logo.png" for 127.0.0.1 at 2015-11-21 21:05:23 +0700
+
+
+Started GET "/assets/close-button-thin.png" for 127.0.0.1 at 2015-11-21 21:05:23 +0700
+
+
+Started GET "/assets/close-light.png" for 127.0.0.1 at 2015-11-21 21:05:23 +0700
+
+
+Started GET "/assets/github.jpg" for 127.0.0.1 at 2015-11-21 21:05:23 +0700
+
+
+Started GET "/assets/left.jpg" for 127.0.0.1 at 2015-11-21 21:05:25 +0700
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2015-11-21 21:05:25 +0700
+
+
+Started GET "/assets/linotte-light.ttf" for 127.0.0.1 at 2015-11-21 21:05:25 +0700
+
+
+Started GET "/assets/Background-login.png" for 127.0.0.1 at 2015-11-21 21:05:25 +0700
+
+
+Started GET "/assets/Logo-black.png" for 127.0.0.1 at 2015-11-21 21:05:26 +0700
+
+
+Started GET "/home" for 127.0.0.1 at 2015-11-21 21:06:11 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 150ms (Views: 149.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-1ff8483f3e794925064608f190df5aafb0e7bc896db279b0176faff1c1466512.css?body=1" for 127.0.0.1 at 2015-11-21 21:06:11 +0700
+
+
+Started GET "/assets/font-awesome-animation.self-58af23be6925c8035fc0fb75d4e750d1c40791f4b218f058753ec10fd4993669.css?body=1" for 127.0.0.1 at 2015-11-21 21:06:11 +0700
+
+
+Started GET "/assets/contact.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 21:06:11 +0700
+
+
+Started GET "/assets/component.self-647885c109adb50230ba359a64c56e62bfb9fae22096f7dc749d5ebed0d110a4.css?body=1" for 127.0.0.1 at 2015-11-21 21:06:11 +0700
+
+
+Started GET "/assets/blog.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 21:06:11 +0700
+
+
+Started GET "/assets/about.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 21:06:11 +0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 21:06:11 +0700
+
+
+Started GET "/assets/setting.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 21:06:11 +0700
+
+
+Started GET "/assets/jquery.mCustomScrollbar.self-bfe21ddda1c6e4f777dae532c9b0cd8533af5c1d3b47e1598b557510961a1af4.css?body=1" for 127.0.0.1 at 2015-11-21 21:06:11 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-11-21 21:06:11 +0700
+
+
+Started GET "/assets/hover.self-b0b2e6a05f61c976461a3bbec5f749269e0e3cdc86a06d7064122ac8f61aa9d4.css?body=1" for 127.0.0.1 at 2015-11-21 21:06:11 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-11-21 21:06:11 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-11-21 21:06:11 +0700
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 21:06:11 +0700
+
+
+Started GET "/assets/blog.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 21:06:11 +0700
+
+
+Started GET "/assets/contact.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 21:06:11 +0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 21:06:11 +0700
+
+
+Started GET "/assets/jquery.mCustomScrollbar.self-c58108a73b577cc92c3bfba49011b265030da332265f5037d7d14b193488b7b5.js?body=1" for 127.0.0.1 at 2015-11-21 21:06:11 +0700
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 127.0.0.1 at 2015-11-21 21:06:11 +0700
+
+
+Started GET "/assets/jquery-ui.self-5d5966d1ab2597d60908c378f45d4e1efe2a56a0357773ef30c0daf2104907a2.js?body=1" for 127.0.0.1 at 2015-11-21 21:06:11 +0700
+
+
+Started GET "/assets/jquery.mCustomScrollbar.concat.min.self-967bde5751d8f3c7c697674d0159c95ece0d345603a37547126ad432b0c2f4b2.js?body=1" for 127.0.0.1 at 2015-11-21 21:06:11 +0700
+
+
+Started GET "/assets/modernizr.custom.self-4ba57823d14b247de2a0190199e4ee1dec32ae9c69f9321b32b10b0caada8503.js?body=1" for 127.0.0.1 at 2015-11-21 21:06:11 +0700
+
+
+Started GET "/assets/setting.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 21:06:11 +0700
+
+
+Started GET "/assets/toucheffects.self-5c942c848bb57b795a9aa73d0abf13cbb9cac4da6f6dca5d6f490d21bc5a1658.js?body=1" for 127.0.0.1 at 2015-11-21 21:06:11 +0700
+
+
+Started GET "/assets/application.self-c644d38158dcceed072b81ffd8c4a8f2e7100bb8a05f86edf7f827910fa242f7.js?body=1" for 127.0.0.1 at 2015-11-21 21:06:11 +0700
+
+
+Started GET "/assets/Logo.png" for 127.0.0.1 at 2015-11-21 21:06:11 +0700
+
+
+Started GET "/assets/close-button-thin.png" for 127.0.0.1 at 2015-11-21 21:06:11 +0700
+
+
+Started GET "/assets/close-light.png" for 127.0.0.1 at 2015-11-21 21:06:11 +0700
+
+
+Started GET "/assets/github.jpg" for 127.0.0.1 at 2015-11-21 21:06:11 +0700
+
+
+Started GET "/assets/left.jpg" for 127.0.0.1 at 2015-11-21 21:06:12 +0700
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2015-11-21 21:06:12 +0700
+
+
+Started GET "/assets/Background-login.png" for 127.0.0.1 at 2015-11-21 21:06:12 +0700
+
+
+Started GET "/assets/linotte-light.ttf" for 127.0.0.1 at 2015-11-21 21:06:12 +0700
+
+
+Started GET "/assets/Logo-black.png" for 127.0.0.1 at 2015-11-21 21:06:13 +0700
+
+
+Started GET "/blog" for 127.0.0.1 at 2015-11-21 21:06:37 +0700
+Processing by BlogController#index as HTML
+  Rendered blog/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 117ms (Views: 116.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/most-influential-books.jpg" for 127.0.0.1 at 2015-11-21 21:06:37 +0700
+
+
+Started GET "/assets/fashion.jpg" for 127.0.0.1 at 2015-11-21 21:06:37 +0700
+
+
+Started GET "/assets/178891861.jpg" for 127.0.0.1 at 2015-11-21 21:06:37 +0700
+
+
+Started GET "/setting" for 127.0.0.1 at 2015-11-21 21:06:45 +0700
+Processing by SettingController#index as HTML
+  Rendered setting/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 109ms (Views: 108.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-11-21 21:06:50 +0700
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 107ms (Views: 106.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2015-11-21 21:06:50 +0700
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2015-11-21 21:06:50 +0700
+
+
+Started GET "/assets/4.jpg" for 127.0.0.1 at 2015-11-21 21:06:50 +0700
+
+
+Started GET "/assets/5.jpg" for 127.0.0.1 at 2015-11-21 21:06:50 +0700
+
+
+Started GET "/assets/6.jpg" for 127.0.0.1 at 2015-11-21 21:06:50 +0700
+
+
+Started GET "/assets/team.jpg" for 127.0.0.1 at 2015-11-21 21:06:50 +0700
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2015-11-21 21:06:50 +0700
+
+
+Started GET "/contact" for 127.0.0.1 at 2015-11-21 21:06:55 +0700
+Processing by ContactController#index as HTML
+  Rendered contact/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 112ms (Views: 111.7ms | ActiveRecord: 0.0ms)

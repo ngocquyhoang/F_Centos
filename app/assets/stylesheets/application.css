@@ -13,8 +13,12 @@
  *= require_tree .
  *= require_self
  */
-::-moz-selection { color: #007AFF; }
-::selection { color: #007AFF; }
+::-moz-selection {
+	color: #007AFF;
+}
+::selection {
+	color: #007AFF; 
+}
 /*SETTING FONT*/
 @font-face {
 	font-family:linotte_thin;
