@@ -20,7 +20,7 @@
 							<td><%= user_log.user_id %></td>
 							<td><%= current_user.current_sign_in_ip %></td>
 							<td><%= user_log.log_data %></td>
-							<td><%= user_log.created_at %></td>
+							<td><%= user_log.created_at.in_time_zone(7) %></td>
 						</tr>
 					<% end %>
 					<tr>
@@ -75,11 +75,11 @@
 					</tr>
 					<tr>
 						<td>Create at</td>
-						<td><%= current_user.created_at %></td>
+						<td><%= current_user.created_at.in_time_zone(7) %></td>
 					</tr>
 					<tr>
 						<td>Last sign in at</td>
-						<td><%= current_user.last_sign_in_at %></td>
+						<td><%= current_user.last_sign_in_at.in_time_zone(7) %></td>
 					</tr>
 					<tr>
 						<td>Last sign in IP</td>
