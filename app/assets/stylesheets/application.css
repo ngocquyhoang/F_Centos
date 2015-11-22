@@ -555,9 +555,13 @@ section.home .content-section .home-content .signout-button a:hover{
 .sign-in{
 	font-size: 30px;
 	padding: 20px;
-	background-color: rgba(255,255,255,0.6);
+	background-color: rgba(255,255,255,0.3);
 	display: inline-block;
 	margin-top: 200px;
+	border: 1px solid #fff;
+}
+.sign-in:hover{
+	background-color: rgba(255,255,255,0.6);
 }
 .sign-in-plz{
 	text-align: center;
@@ -649,4 +653,10 @@ button#button-add-info{
 .user-infor-title{
 	display: inline-block;
 	margin-bottom: 25px;
+}
+.sign-in-plz a{
+	color: #fff;
+}
+.sign-in-plz a:hover{
+	color: #fff;
 }

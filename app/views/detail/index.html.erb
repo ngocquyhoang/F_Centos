@@ -118,7 +118,9 @@
 	</div>
 	<% else%>
 		<div class="sign-in-plz">
-			<p class="sign-in">Please Sign in</p>
+			<%= link_to :home do %>
+				<p class="sign-in">Please Sign in</p>
+			<% end %>
 		</div>
 	<% end%>
 </section>
