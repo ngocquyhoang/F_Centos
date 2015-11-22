@@ -562,3 +562,91 @@ section.home .content-section .home-content .signout-button a:hover{
 .sign-in-plz{
 	text-align: center;
 }
+.add-info-box{
+	display: none;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.6);
+	background-image: url('Background-login.png');
+	z-index: 10;
+}
+.add-info-form{
+	margin-top: 100px;
+	margin-left: 20%;
+	width: 60%;
+	background-color: #fff;
+	color: #666;
+}
+.add-info-form .form-title{
+	padding: 10px 20px;
+	position: absolute;
+	margin: 0px;
+}
+.header-box{
+	position: relative;
+	background-color: #F1F1F1;
+	height: 46px;
+}
+#close-info-form{
+	right: 6px;
+	position: absolute;
+	top: 6px;
+	width: 34px;
+}
+.user-info-form {
+	margin-top: 25px;
+	font-size: 18px;
+}
+.user-info-form .name{
+	margin-right: 70px;
+	margin-left:  10%;
+}
+.user-info-form .gender{
+	margin-right: 97px;
+	margin-left:  10%;
+}
+.user-info-form .age{
+	margin-right: 124px;
+	margin-left:  10%;
+}
+.user-info-form .address{
+	margin-right: 61px;
+	margin-left:  10%;
+}
+.user-info-form .p_num{
+	margin-right: 41px;
+	margin-left:  10%;
+}
+.button-save-info{
+	margin: 10px 0px 10px 60%;
+	padding: 7px 20px;
+	background-color: #fff;
+	border: 1px solid #8E8E93;
+}
+.footer-info{
+	background-color: #F1F1F1;
+}
+.button-save-info:hover{
+	background-color: #007AFF;
+	color:#fff;
+}
+.user-info-form input[type = "text"]{
+	padding: 5px;
+	width: 50%;
+}
+button#button-add-info{
+	padding: 10px 20px;
+	background-color: rgba(255,255,255,0.4);
+	color: #fff;
+	border: 1px solid #fff;
+	margin-bottom: 15px;
+	float: right;
+	margin-right: 20px;
+}
+.user-infor-title{
+	display: inline-block;
+	margin-bottom: 25px;
+}
