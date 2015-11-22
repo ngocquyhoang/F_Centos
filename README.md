@@ -1,7 +1,7 @@
 <a name="top"></a>
 ### [Centosグループ](#team-members)の「Railsのチュートリアル」へようこそ
 
-![Images](https://lh3.googleusercontent.com/-_2HC-5qix9s/VhHjPVUP4ZI/AAAAAAAADY8/LhlVLtvCemM/s912-Ic42/Capture.JPG)
+![Images](https://lh3.googleusercontent.com/-T6Hq947mdAE/Vh0Ml-KCDbI/AAAAAAAADbk/DBBIDnGaOb4/s912-Ic42/Banner.jpg)
 
 ![hr](https://lh3.googleusercontent.com/-LUQR0JWAxFs/VhWlqfq4YoI/AAAAAAAADZk/2vFj16YOcaM/s912-Ic42/hr.png)
 
@@ -25,26 +25,28 @@
 このウェブページの作成る目的は：**Ruby on Rails**の基本的な知識を持つユーザーを支援します。
 
 #####  対象
-* 学生、RAILSを勉強している人
+* 学生
+* RAILSを勉強している人
 
 #####  目的
 * RAILSを学びます。
 * 学習をサポートします。
 
-[![top](https://lh3.googleusercontent.com/-KjI7CjXsl2M/Vhp8Doqm5XI/AAAAAAAADa4/oQB_8jstuZw/s912-Ic42/top-icon.png "Back to top")](#top)
+[![top](https://lh3.googleusercontent.com/-pJuZ25kd8Xw/Vh0FlMiAE0I/AAAAAAAADbU/QuIEwMBXd-Y/s912-Ic42/top-icon.png "Back to top")](#top)
 
 ####<a name="app-feature"></a>
 
 ![app-feature](https://lh3.googleusercontent.com/-hEJENiD41FQ/VhWlp3eLBkI/AAAAAAAADZg/wYcX7DEhLYw/s912-Ic42/feature.png "アプリケーションのフィーチャー")
 
 #####  機能
-* [ユーザー管理](https://github.com/tuananhdinang/F_Centos/wiki/%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%83%9A%E3%83%BC%E3%82%B8)
+* [データベース](https://github.com/ngocquyhoang/F_Centos/wiki/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9)
+* [ユーザー管理](https://github.com/ngocquyhoang/F_Centos/wiki/%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%83%9A%E3%83%BC%E3%82%B8)
 * RAILSの講義の内容を表現します。
 * フェイスブックでシェアします。
 * 講義にコメントすることができます。
 * 講義を評価します。
 
-[![top](https://lh3.googleusercontent.com/-KjI7CjXsl2M/Vhp8Doqm5XI/AAAAAAAADa4/oQB_8jstuZw/s912-Ic42/top-icon.png "Back to top")](#top)
+[![top](https://lh3.googleusercontent.com/-pJuZ25kd8Xw/Vh0FlMiAE0I/AAAAAAAADbU/QuIEwMBXd-Y/s912-Ic42/top-icon.png "Back to top")](#top)
 
 ####<a name="list-gems"></a>
 ![list-gem](https://lh3.googleusercontent.com/-p2PE9-RqnOY/VhWlsx-qYcI/AAAAAAAADZ0/KreA3XYXZ8c/s912-Ic42/list-gem.png "アプリケーションで使用してジェムのリスト")
@@ -62,7 +64,7 @@
  * ジェム <a href="https://github.com/tuananhdinang/F_Centos/tree/ngocquyhoang">Byebug</a>
  * ジェム <a href="https://github.com/tuananhdinang/F_Centos/tree/ngocquyhoang">Web-console ver 2.0</a>
  * ジェム <a href="https://github.com/tuananhdinang/F_Centos/tree/ngocquyhoang">Sping</a>
- [![top](https://lh3.googleusercontent.com/-KjI7CjXsl2M/Vhp8Doqm5XI/AAAAAAAADa4/oQB_8jstuZw/s912-Ic42/top-icon.png "Back to top")](#top)
+ [![top](https://lh3.googleusercontent.com/-pJuZ25kd8Xw/Vh0FlMiAE0I/AAAAAAAADbU/QuIEwMBXd-Y/s912-Ic42/top-icon.png "Back to top")](#top)
 
 ###<a name="use"></a>
 ![use](https://lh3.googleusercontent.com/-qY_-85iz3U8/VhWlwqVcZPI/AAAAAAAADaU/maT0YooRGGY/s912-Ic42/use.png "アプリケーションの使い方")
@@ -86,7 +88,7 @@
 デフォルトの番号ポートは 3000<br />
 デフォルトのアドレスは <a href="https://localhost:3000">https://localhost:3000</a>
 
-[![top](https://lh3.googleusercontent.com/-KjI7CjXsl2M/Vhp8Doqm5XI/AAAAAAAADa4/oQB_8jstuZw/s912-Ic42/top-icon.png "Back to top")](#top)
+[![top](https://lh3.googleusercontent.com/-pJuZ25kd8Xw/Vh0FlMiAE0I/AAAAAAAADbU/QuIEwMBXd-Y/s912-Ic42/top-icon.png "Back to top")](#top)
 
 ####<a name="team-members"></a>
 ![team](https://lh3.googleusercontent.com/-KqoBW7JAZTI/VhWltyiOMYI/AAAAAAAADZ8/G-_4ssc7uJ0/s912-Ic42/team.png "チームメンバー")
@@ -98,7 +100,7 @@
 * "Vu Tien Dung" - <tiendungvu@example.com.vn>
 * "Luong Tien Sy" - <tiensyluong@example.com.vn>
 
-[![top](https://lh3.googleusercontent.com/-KjI7CjXsl2M/Vhp8Doqm5XI/AAAAAAAADa4/oQB_8jstuZw/s912-Ic42/top-icon.png "Back to top")](#top)
+[![top](https://lh3.googleusercontent.com/-pJuZ25kd8Xw/Vh0FlMiAE0I/AAAAAAAADbU/QuIEwMBXd-Y/s912-Ic42/top-icon.png "Back to top")](#top)
 
 ####<a name="document"></a>
 ![document](https://lh3.googleusercontent.com/-dYCfnU_LoMc/VhWlluEQaEI/AAAAAAAADZU/8bbQqMGkmjA/s912-Ic42/document.png "アプリケーションの参考資料")
@@ -108,7 +110,7 @@
 * [Try ruby] - <https://tryruby.org>
 * [Rails installer] - <http://railsinstaller.org/en>
 
-[![top](https://lh3.googleusercontent.com/-KjI7CjXsl2M/Vhp8Doqm5XI/AAAAAAAADa4/oQB_8jstuZw/s912-Ic42/top-icon.png "Back to top")](#top)
+[![top](https://lh3.googleusercontent.com/-pJuZ25kd8Xw/Vh0FlMiAE0I/AAAAAAAADbU/QuIEwMBXd-Y/s912-Ic42/top-icon.png "Back to top")](#top)
 
 ####<a name="demo-images"></a>
 ![image](https://lh3.googleusercontent.com/-OgMJv9jhwag/VhWljueAbcI/AAAAAAAADZM/ZJx_9DdHevw/s912-Ic42/demo-image.png "デモイメージ")
@@ -139,4 +141,4 @@
 
 ![Demo - images](https://lh3.googleusercontent.com/-T_syg5LfZao/VhHZQL4nF7I/AAAAAAAADYQ/fRyE4GcRLO8/s720-Ic42/Mockup_9.jpg)
 
-[![top](https://lh3.googleusercontent.com/-KjI7CjXsl2M/Vhp8Doqm5XI/AAAAAAAADa4/oQB_8jstuZw/s912-Ic42/top-icon.png "Back to top")](#top)
+[![top](https://lh3.googleusercontent.com/-pJuZ25kd8Xw/Vh0FlMiAE0I/AAAAAAAADbU/QuIEwMBXd-Y/s912-Ic42/top-icon.png "Back to top")](#top)
