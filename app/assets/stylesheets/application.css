@@ -660,3 +660,62 @@ button#button-add-info{
 .sign-in-plz a:hover{
 	color: #fff;
 }
+.comment-title{
+	text-align: center;
+	font-size: 25px;
+	margin: 20px;
+}
+.comment-box{
+	float: left;
+}
+.comment-avatar-member{
+	width: 50px;
+	margin-right: 25px;
+	float: left;
+}
+.content-comment{
+	font-size: 14px;
+}
+.comment{
+	display: inline-block;
+	padding: 20px 30px;
+}
+.member-name-content{
+	margin: 0px;
+	font-size: 18px;
+}
+.right-comment-content{
+	float: left;
+	width: 80%;
+}
+.comment-time{
+	font-size: 13px;
+	font-style: italic;
+}
+.add-comment-form {
+}
+.add-comment-form{
+	padding: 10px 15%;
+}
+.text-form-area{
+	background-color: rgba(255,255,255,0.2);
+	width: 100%;
+	height: 200px;
+	color: #fff;
+	font-size: 15px;
+	padding: 7px;
+	border: 1px solid #fff;
+}
+.form-comment h3{
+	margin-top: 0px;
+}
+.form-comment .post-button{
+	padding: 10px 20px;
+	background-color: rgba(255,255,255,0.0);
+	border: 1px solid #fff;
+	font-size: 18px;
+	margin-top: 20px;
+}
+.form-comment .post-button:hover{
+	background-color: rgba(255,255,255,0.3);
+}
