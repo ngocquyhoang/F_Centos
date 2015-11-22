@@ -34,7 +34,8 @@
 		</div>
 		<!-- User Details -->
 		<div class="center-width">
-			<h3>User details</h3>
+			<h3  class="user-infor-title">User details</h3>
+			<button id="button-add-info">Add user infomation</button>
 			<table class="table">
 				<tbody>
 					<tr>
@@ -96,6 +97,24 @@
 				</tbody>
 			</table>
 		</div>
+		<div class="add-info-box">
+			<div class="add-info-form">
+				<div class="header-box">
+					<h3 class="form-title">User infomation</h3>
+					<img src="/assets/close-button-thin.png" alt="Close" title="Close" id="close-info-form">
+				</div>
+				<%= form_for :@user_info, :url => url_for(:action => 'update'), html: { class: "user-info-form", id: "user-info-form" } do |f| %>
+					<span class="name">User name</span><%= f.text_field :name %><br /><br />
+					<span class="gender">Gender</span><%= f.text_field :gender %><br /><br />
+					<span class="age">Age</span><%= f.text_field :age %><br /><br />
+					<span class="address">User Adress</span><%= f.text_field :address %><br /><br />
+					<span class="p_num">Phone number</span><%= f.text_field :p_num %><br /><br />
+					<div class="footer-info">
+						<%= f.submit  "Save user infomation", :class => 'button-save-info' %>
+					</div>
+				<% end %>
+			</div>
+		</div>
 	</div>
 	<% else%>
 		<div class="sign-in-plz">
@@ -112,5 +131,11 @@
 		$(".left-slider li.detail i").addClass('active-icon');
 		$(".left-slider li.detail").addClass('active');
 		$('title').html('Details user - Rails tutorial');
+		$('#button-add-info').click(function() {
+			$('.add-info-box').show("slide", {direction:'up'} , "easeOutQuint ", 1000);
+		});
+		$('#close-info-form').click(function() {
+			$('.add-info-box').hide("slide", {direction:'up'} , "easeOutQuint ", 1000);
+		});
 	});	
 </script>

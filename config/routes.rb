@@ -4,6 +4,8 @@ Rails.application.routes.draw do
 
   devise_for :users, controllers: { sessions: "users/sessions" }
   
+  post 'update' => 'detail#update'
+
   get 'home' => 'home#index'
 
   get 'contact' => 'contact#index'
