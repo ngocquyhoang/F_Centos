@@ -9,14 +9,22 @@ class Users::SessionsController < Devise::SessionsController
 
   # POST /resource/sign_in
   def create
-    newLog = UserLog.create user_id: current_user.id , log_data: current_user.email + " is Sign in"
+    if current_user.name == ""
+      newLog = UserLog.create user_id: current_user.id , log_data: current_user.email + " is Sign in"
+    else
+      newLog = UserLog.create user_id: current_user.id , log_data: current_user.name + " is Sign in"
+    end
     newLog.save
     redirect_to root_url
   end
 
   # DELETE /resource/sign_out
   def destroy
-    newLog = UserLog.create user_id: current_user.id , log_data: current_user.email + " is Sign out"
+    if current_user.name == ""
+      newLog = UserLog.create user_id: current_user.id , log_data: current_user.email + " is Sign out"
+    else
+      newLog = UserLog.create user_id: current_user.id , log_data: current_user.name + " is Sign out"
+    end
     newLog.save
     sign_out
     redirect_to root_url

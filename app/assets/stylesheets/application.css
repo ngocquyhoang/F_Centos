@@ -640,6 +640,7 @@ section.home .content-section .home-content .signout-button a:hover{
 .user-info-form input[type = "text"]{
 	padding: 5px;
 	width: 50%;
+	border: 1px solid #007AFF;
 }
 button#button-add-info{
 	padding: 10px 20px;
@@ -718,4 +719,14 @@ button#button-add-info{
 }
 .form-comment .post-button:hover{
 	background-color: rgba(255,255,255,0.3);
+}
+.sign-up-button{
+	padding: 10px 20px;
+	font-size: 20px;
+	border: 1px solid #fff;
+	font-weight: normal;
+	background-color: rgba(255,255,255,0.0);
+}
+.sign-up-button:hover{
+	background-color: rgba(255,255,255,0.5);
 }

@@ -31,6 +31,13 @@
 			<%= link_to :service do %>
 			<li class="setting" name="setting"><span class="faa-parent animated-hover"><i class="fa fa-cog faa-burst fa-3x fa-spin"></span></i></li>
 			<% end %>
+			<% if user_signed_in? %>
+				<% if current_user.role == 'admin' %>
+					<%= link_to :admin do %>
+						<li class="admin" name="admin"><span class="faa-parent animated-hover"><i class="fa fa-lock faa-pulse fa-3x"></i></span></li>
+					<% end %>
+				<% end %>
+			<% end%>
 			<%= link_to :about do %>
 			<li class="about-us" name="about-us"><span class="faa-parent animated-hover"><i class="fa fa-info-circle faa-vertical fa-3x"></i></span></li>
 			<% end %>

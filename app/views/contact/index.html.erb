@@ -5,18 +5,17 @@
 		<div class="contact-content">
 			<h3>Contact to me</h3>
 			<div class="form-table">
-				<form>
+				<%= form_for :@contact, :url => url_for(:action => 'contact'), html: { class: "", id: "" } do |f| %>
 					<p>Name<span>*</span></p>
-					<input type="text" class="contact-form-element form-name" />
-					<p>Company<span>*</span></p>
-					<input type="text" class="contact-form-element form-company" />
+					<%= f.text_field :name, class: "contact-form-element form-name" %>
+					<p>Company</p>
+					<%= f.text_field :company, class: "contact-form-element form-company" %>
 					<p>Email<span>*</span></p>
-					<input type="email" class="contact-form-element form-email" />
+					<%= f.text_field :email, class: "contact-form-element form-email" %>
 					<p>Message<span>*</span></p>
-					<textarea name="message" class="contact-form-element message-text"></textarea>
-					<br />
-					<input type="submit" name="" value="Send message" class="send-button">
-				</form>
+					<%= f.text_area(:message, class: "contact-form-element message-text") %>
+					<%= f.submit "Send message", class: "send-button" %>
+				<% end %>
 			</div>
 
 			<div class="mem-text">
@@ -37,6 +36,11 @@
 					" Life is a race. Run fast or you'll be trampled "
 					<br />
 					- Farhan
+					<% if @messages_contact.present? %>
+						<% @messages_contact.each do |message|%>
+							<%= message.id %>
+						<% end%>
+					<% end%>
 				</p>
 			</div>
 				

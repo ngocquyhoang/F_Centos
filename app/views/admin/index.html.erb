@@ -1,0 +1,20 @@
+<!-- ADMIN -->
+<section class="admin">
+	<h2 class="title-section">Admin page</h2>
+	<div class="content-section">
+		<div class="admin-content">
+
+		</div>
+	</div>
+</section>
+<script type="text/javascript">
+	$(document).ready(function() {
+		SetWidthValue();
+		SetContentHeightValue();
+		$(".content-section").mCustomScrollbar({theme:"light-thin",scrollButtons:{enable:true}});
+		ShowSocialView();
+		$(".left-slider li.admin i").addClass('active-icon');
+		$(".left-slider li.admin").addClass('active');
+		$('title').html('Admin - Rails tutorial');
+	});	
+</script>

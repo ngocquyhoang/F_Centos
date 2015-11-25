@@ -6,9 +6,13 @@ Rails.application.routes.draw do
   
   post 'update' => 'detail#update'
 
+  post 'contact' => 'contact#contact'
+
   get 'home' => 'home#index'
 
-  get 'contact' => 'contact#index'
+  get 'contact' => 'contact#index', as: :contact_index
+
+  get 'admin' => 'admin#index'
 
   get 'about' => 'about#index'
 
