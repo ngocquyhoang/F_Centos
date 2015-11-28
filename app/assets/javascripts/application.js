@@ -22,18 +22,7 @@ $( window ).resize(function() {
 	SetWidthValue();
 	SetContentHeightValue();
 });
-// function define
 
-// Set view by click to icon 
-// function SetViewbyClick () {
-// 	$(".left-slider li").each(function() {
-// 		$(this).click(function() {
-// 			var className = $(this).attr('class');
-// 			alert(className);
-// 			// $(".left-slider li." + className).addClass('active');
-// 		});
-// 	});
-// };
 
 function SetWidthValue () {
 	var width_vale = $(window).width();

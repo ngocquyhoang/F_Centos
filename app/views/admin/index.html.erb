@@ -23,6 +23,14 @@
 							<i class="fa fa-users fa-5x"></i>
 							<i class="fa fa-heart fa-5x"></i>
 						</div>
+						<div class="control-step-user">
+							<i class="fa fa-file-text-o fa-5x"></i>
+							<i class="fa fa-list-ul fa-5x"></i>
+						</div>
+						<div class="control-step-blog">
+							<i class="fa fa-users fa-5x"></i>
+							<i class="fa fa-heart fa-5x"></i>
+						</div>
 					</div>
 					<!-- SEE ALL USER LOG -->
 					<!-- SEE ALL USER -->
@@ -43,6 +51,7 @@
 </section>
 <script type="text/javascript">
 	$(document).ready(function() {
+		Userviews();
 		SetWidthValue();
 		SetContentHeightValue();
 		$(".content-section").mCustomScrollbar({theme:"light-thin",scrollButtons:{enable:true}});
@@ -51,4 +60,11 @@
 		$(".left-slider li.admin").addClass('active');
 		$('title').html('Admin - Rails tutorial');
 	});	
+
+	function Userviews () {
+		$('.admin-step-icon .control .fa-users').click(function() {
+			$('.admin-step-icon .control').slideUp(500);
+			$('.admin-step-icon .control-step-user').slideDown(500);
+		});
+	}
 </script>

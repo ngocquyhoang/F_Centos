@@ -736,14 +736,13 @@ button#button-add-info{
 .admin-step-icon{
 	text-align: center;
 }
-.admin-step-icon .control .fa-5x{
+.admin-step-icon .fa-5x{
 	font-size: 9em !important;
 	margin: 150px 80px;
-	-webkit-transition: color 1s, transform 1.5s; /* For Safari 3.1 to 6.0 */
-	transition: color 1s, transform 1.5s;
 }
-.admin-step-icon .control .fa:hover{
-	color: #4CD964;
-	border: 1px solid rgba(255,255,255,0.0);
-	transform: rotate(360deg);
+.control-step-user{
+	display: none;
+}
+.control-step-blog{
+	display: none;
 }
