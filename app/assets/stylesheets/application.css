@@ -736,13 +736,51 @@ button#button-add-info{
 .admin-step-icon{
 	text-align: center;
 }
-.admin-step-icon .fa-5x{
-	font-size: 9em !important;
-	margin: 150px 80px;
+.admin-step-icon .control .user, .admin-step-icon .control .blog{
+	width: 295px;
+}
+.admin-step-icon .fa{
+	font-size: 9em;
+	margin: 150px 80px 30px 80px;
 }
 .control-step-user{
 	display: none;
+	float: left;
 }
 .control-step-blog{
 	display: none;
+}
+.admin-step-icon .control{
+	position: relative;
+	display: inline-block;
+}
+.admin-step-icon span{
+	font-size: 25px;
+}
+.admin-step-icon .control div{
+	float: left;
+}
+.admin-step-icon .control-step-blog > div{
+	float: left;
+	width: 295px;
+}
+.admin-step-icon #back-button{
+	width: 205px;
+}
+.admin-step-icon .control-step-user > div{
+	float: left;
+	width: 295px;
+}
+.admin-step-icon a{
+	color: #fff;
+}
+.admin-step-icon a:hover{
+	color: #fff;
+}
+.title-section a {
+	color: #fff;
+}
+.title-section a:hover{
+	text-decoration: none;
+	color: #fff;
 }

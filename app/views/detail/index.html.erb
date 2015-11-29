@@ -18,7 +18,7 @@
 					<% @user_logs.each do |user_log| %>
 						<tr>
 							<td><%= user_log.user_id %></td>
-							<td><%= current_user.current_sign_in_ip %></td>
+							<td><%= user_log.ip %></td>
 							<td><%= user_log.log_data %></td>
 							<td><%= user_log.created_at.in_time_zone(7) %></td>
 						</tr>

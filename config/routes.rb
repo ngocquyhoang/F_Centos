@@ -14,6 +14,12 @@ Rails.application.routes.draw do
 
   get 'admin' => 'admin#index'
 
+  get 'user-log' => 'admin#user_log'
+
+  get 'user-details' => 'admin#user_details'
+
+  get 'admin' => 'admin#index'
+
   get 'about' => 'about#index'
 
   get 'service' => 'setting#index'

@@ -20,22 +20,48 @@
 					</h3>
 					<div class="admin-step-icon">
 						<div class="control">
-							<i class="fa fa-users fa-5x"></i>
-							<i class="fa fa-heart fa-5x"></i>
+							<div class="user">
+								<i class="fa fa-users fa-5x"></i>
+								<span class="title-user">User</span>
+							</div>
+							<div class="blog">
+								<i class="fa fa-heart fa-5x"></i>
+								<span class="title-blog">Blog</span>
+							</div>
 						</div>
 						<div class="control-step-user">
-							<i class="fa fa-file-text-o fa-5x"></i>
-							<i class="fa fa-list-ul fa-5x"></i>
+							<div id="back-button" >
+								<i class="fa fa-angle-left fa-5x"></i>
+								<span>Back</span>
+							</div>
+							<div>
+								<%= link_to "user-log"  do %>
+									<i class="fa fa-file-text-o fa-5x"></i>
+								<% end %>
+								<span>User Log</span>
+							</div>
+							<div>
+								<%= link_to "user-details"  do %>
+									<i class="fa fa-list-ul fa-5x"></i>
+								<% end %>
+								<span>User Details</span>
+							</div>
 						</div>
 						<div class="control-step-blog">
-							<i class="fa fa-users fa-5x"></i>
-							<i class="fa fa-heart fa-5x"></i>
+							<div id="back-button" >
+								<i class="fa fa-angle-left fa-5x"></i>
+								<span>Back</span>
+							</div>
+							<div>
+								<i class="fa fa-plus fa-5x"></i>
+								<span>Add new blog</span>
+							</div>
+							<div>
+								<i class="fa fa-heart fa-5x"></i>
+								<span>Blog control</span>
+							</div>
 						</div>
 					</div>
-					<!-- SEE ALL USER LOG -->
-					<!-- SEE ALL USER -->
-					<!-- CREATE NEW BLOG -->
-					<!-- MANAGE BLOG  ADD - EDIT - DELETE -->
 				<% end %>				
 			<!-- NO SIGN IN -->
 			<% else %>
@@ -52,6 +78,9 @@
 <script type="text/javascript">
 	$(document).ready(function() {
 		Userviews();
+		UserviewsNextStep ();
+		Blogviews();
+		BlogviewsNextStep();
 		SetWidthValue();
 		SetContentHeightValue();
 		$(".content-section").mCustomScrollbar({theme:"light-thin",scrollButtons:{enable:true}});
@@ -63,8 +92,26 @@
 
 	function Userviews () {
 		$('.admin-step-icon .control .fa-users').click(function() {
-			$('.admin-step-icon .control').slideUp(500);
-			$('.admin-step-icon .control-step-user').slideDown(500);
+			$('.admin-step-icon .control').slideUp(750);
+			$('.admin-step-icon .control-step-user').slideDown(750);
 		});
-	}
+	};
+	function UserviewsNextStep () {
+		$('.admin-step-icon .control-step-user .fa-angle-left').click(function() {
+			$('.admin-step-icon .control').slideDown(750);
+			$('.admin-step-icon .control-step-user').slideUp(750);
+		});
+	};
+	function Blogviews () {
+		$('.admin-step-icon .control .fa-heart').click(function() {
+			$('.admin-step-icon .control').slideUp(750);
+			$('.admin-step-icon .control-step-blog').slideDown(750);
+		});
+	};
+	function BlogviewsNextStep () {
+		$('.admin-step-icon .control-step-blog .fa-angle-left').click(function() {
+			$('.admin-step-icon .control').slideDown(750);
+			$('.admin-step-icon .control-step-blog').slideUp(750);
+		});
+	};
 </script>

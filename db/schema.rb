@@ -36,6 +36,7 @@ ActiveRecord::Schema.define(version: 20151125040442) do
   create_table "user_logs", force: :cascade do |t|
     t.integer  "user_id",    limit: 4
     t.string   "log_data",   limit: 255
+    t.string   "ip",         limit: 255
     t.datetime "created_at",             null: false
     t.datetime "updated_at",             null: false
   end
