@@ -3,38 +3,19 @@
 	<h2 class="title-section">Blog</h2>
 	<div class="content-section">
 		<div class="blog-post-list">
-			<div class="blog-post-content">
-				<a href="/post"><h3 class="post-title">Lorem ipsum dolor sit amet</h3></a>
-				<h4 class="time-post"> 12 NOV 2015</h4>
-				<a href="/post"><img src="/assets/fashion.jpg" alt="Post demo image" class="post-image" /></a>
-				<div class="post-content center-width">
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-					</p>
+			<% @Blog_post.each do |b| %>
+				<div class="blog-post-content">
+					<a href="/post"><h3 class="post-title"><%= b.title %></h3></a>
+					<h4 class="time-post"><%= b.created_at %></h4>
+					<a href="/post"><img src="/assets/fashion.jpg" alt="Post demo image" class="post-image" /></a>
+					<div class="post-content center-width">
+						<p>
+							<%= b.content %>
+						</p>
+					</div>
 				</div>
-			</div>
-			<hr />
-			<div class="blog-post-content">
-				<a href="https://en.wikipedia.org/wiki/Lorem_ipsum"><h3 class="post-title">Ut enim ad minim veniam, quis nostrud exercitation</h3></a>
-				<h4 class="time-post"> 12 NOV 2015</h4>
-				<a href="https://en.wikipedia.org/wiki/Lorem_ipsum"><img src="/assets/most-influential-books.jpg" alt="Post demo image" class="post-image" /></a>
-				<div class="post-content center-width">
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-					</p>
-				</div>
-			</div>
-			<hr />
-			<div class="blog-post-content">
-				<a href="https://en.wikipedia.org/wiki/Lorem_ipsum"><h3 class="post-title">Excepteur sint occaecat cupidatat non proident</h3></a>
-				<h4 class="time-post"> 12 NOV 2015</h4>
-				<a href="https://en.wikipedia.org/wiki/Lorem_ipsum"><img src="/assets/178891861.jpg" alt="Post demo image" class="post-image" /></a>
-				<div class="post-content center-width">
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-					</p>
-				</div>
-			</div>
+				<hr />
+			<% end %>
 		</div>
 	</div>
 </section>
