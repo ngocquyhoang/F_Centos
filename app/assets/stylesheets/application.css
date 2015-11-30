@@ -791,3 +791,7 @@ button#button-add-info{
 	text-align:center;
 	display: inline-block;
 }
+.next-icon-top {
+	font-size: 0.75em;
+	margin: 0px 5px;
+}

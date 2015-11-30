@@ -1,0 +1,49 @@
+<!-- ADD NEW BLOG -->
+<section class="user-details">
+	<h2 class="title-section"><%= link_to :admin do %>Admin<% end %> <i class="fa fa-hand-o-right next-icon-top"></i> Add new blog </h2>
+	<div class="content-section">
+		<div class="user-details-content">
+			<!-- IF SIGN IN -->
+			<% if user_signed_in? %>
+				<!-- IF NOT ADMIN -->
+				<% if current_user.role == "member" %>
+					<!-- MEMBER -->
+					<div class="sign-in-plz">
+						<%= link_to :home do %>
+							<p class="sign-in">You are not Admin ! go to Home</p>
+						<% end %>
+					</div>
+				<% else %>
+					<!-- ADMIN -->
+					<h3 class="title-admin-wellcome">
+						Wellcome <%= current_user.name %> - Admintration
+					</h3>
+					<div class="all-user-details">
+						<div class="detail-content center-width">
+							
+						</div>
+					</div>
+				<% end %>				
+			<!-- NO SIGN IN -->
+			<% else %>
+				<!-- NOT MEMBER -->
+				<div class="sign-in-plz">
+					<%= link_to :home do %>
+						<p class="sign-in">Please Sign in</p>
+					<% end %>
+				</div>
+			<% end %>
+		</div>
+	</div>
+</section>
+<script type="text/javascript">
+	$(document).ready(function() {
+		SetWidthValue();
+		SetContentHeightValue();
+		$(".content-section").mCustomScrollbar({theme:"light-thin",scrollButtons:{enable:true}});
+		ShowSocialView();
+		$(".left-slider li.admin i").addClass('active-icon');
+		$(".left-slider li.admin").addClass('active');
+		$('title').html('Add new Blog - Rails tutorial');
+	});	
+</script>
