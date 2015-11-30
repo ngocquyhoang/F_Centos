@@ -750,6 +750,9 @@ button#button-add-info{
 .control-step-blog{
 	display: none;
 }
+.admin-step-icon .control .message{
+	width: 295px;
+}
 .admin-step-icon .control{
 	position: relative;
 	display: inline-block;
@@ -783,4 +786,8 @@ button#button-add-info{
 .title-section a:hover{
 	text-decoration: none;
 	color: #fff;
+}
+.center-blog-user-admin-page{
+	text-align:center;
+	display: inline-block;
 }

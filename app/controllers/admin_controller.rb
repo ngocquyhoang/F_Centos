@@ -7,4 +7,8 @@ class AdminController < ApplicationController
 	def user_details
 		@all_user_details = User.all
 	end
+	
+	def message
+		@all_messages = ContactMessage.all
+	end
 end

@@ -13,6 +13,8 @@ Rails.application.routes.draw do
   get 'contact' => 'contact#index', as: :contact_index
 
   get 'admin' => 'admin#index'
+  
+  get 'message' => 'admin#message'
 
   get 'user-log' => 'admin#user_log'
 
