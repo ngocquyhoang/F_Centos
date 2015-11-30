@@ -1,6 +1,6 @@
-<!-- MESSAGES -->
+<!-- BLOG CONTROL -->
 <section class="user-details">
-	<h2 class="title-section"><%= link_to :admin do %>Admin<% end %> > Message </h2>
+	<h2 class="title-section"><%= link_to :admin do %>Admin<% end %> > Blog control </h2>
 	<div class="content-section">
 		<div class="user-details-content">
 			<!-- IF SIGN IN -->
@@ -20,31 +20,26 @@
 					</h3>
 					<div class="all-user-details">
 						<div class="detail-content center-width">
-							<h3>All Message</h3>
+							<h3>All Blog Control</h3>
 							<table class="table">
 								<thead>
 									<tr>
-										<th>Message ID</th>
-										<th>Send Time</th>
-										<th>Name</th>
-										<th>Company</th>
-										<th>Email</th>
-										<th>Message</th>
+										<th>Blog ID</th>
+										<th>Create User</th>
+										<th>Time Create</th>
+										<th>Blog Title</th>
 									</tr>
 								</thead>
 								<tbody>
-									<% @all_messages.each do |message| %>
+									<% @all_blog.each do |blog| %>
 										<tr>
-											<td><%= message.id %></td>
-											<td><%= message.created_at.strftime("%B - %d - %Y  %M:%H") %></td>
-											<td><%= message.name %></td>
-											<td><%= message.company %></td>
-											<td><%= message.email %></td>
-											<td><%= message.message %></td>
+											<td><%= blog.id %></td>
+											<td><%= blog.create_user %></td>
+											<td><%= blog.created_at.in_time_zone(7).strftime("%B - %d - %Y  %M:%H") %></td>
+											<td><%= blog.title %></td>
 										</tr>
 									<% end %>
 									<tr>
-										<td></td>
 										<td></td>
 										<td></td>
 										<td></td>
@@ -76,6 +71,6 @@
 		ShowSocialView();
 		$(".left-slider li.admin i").addClass('active-icon');
 		$(".left-slider li.admin").addClass('active');
-		$('title').html('Message - Rails tutorial');
+		$('title').html('Blog Control - Rails tutorial');
 	});	
 </script>

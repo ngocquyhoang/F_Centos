@@ -12,7 +12,9 @@ Rails.application.routes.draw do
 
   get 'contact' => 'contact#index', as: :contact_index
 
-  get 'admin' => 'admin#index'
+  get 'add-new-blog' => 'admin#add_new_blog'
+  
+  get 'blog-control' => 'admin#blog_control'
   
   get 'message' => 'admin#message'
 

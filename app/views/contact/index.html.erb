@@ -7,13 +7,13 @@
 			<div class="form-table">
 				<%= form_for :@contact, :url => url_for(:action => 'contact'), html: { class: "", id: "" } do |f| %>
 					<p>Name<span>*</span></p>
-					<%= f.text_field :name, class: "contact-form-element form-name" %>
+					<%= f.text_field :name, class: "contact-form-element form-name", :required => true %>
 					<p>Company</p>
 					<%= f.text_field :company, class: "contact-form-element form-company" %>
 					<p>Email<span>*</span></p>
-					<%= f.text_field :email, class: "contact-form-element form-email" %>
+					<%= f.email_field :email, class: "contact-form-element form-email", :required => true %>
 					<p>Message<span>*</span></p>
-					<%= f.text_area(:message, class: "contact-form-element message-text") %>
+					<%= f.text_area(:message, class: "contact-form-element message-text", :required => true) %>
 					<%= f.submit "Send message", class: "send-button" %>
 				<% end %>
 			</div>
