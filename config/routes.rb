@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
 
+  namespace :admin do
+    resources :blogs
+  end
+  
+  mount Ckeditor::Engine => '/ckeditor'
   resources :user_logs
 
   devise_for :users, controllers: { sessions: "users/sessions" }
@@ -12,7 +17,7 @@ Rails.application.routes.draw do
 
   get 'contact' => 'contact#index', as: :contact_index
 
-  get 'add-new-blog' => 'admin#add_new_blog'
+  # get 'add-new-blog' => 'admin#add_new_blog'
   
   get 'blog-control' => 'admin#blog_control'
   

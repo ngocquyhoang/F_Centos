@@ -9,7 +9,8 @@
 //
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
-//
+
+//= require ckeditor/init
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
@@ -40,13 +41,13 @@ function ShowSocialView () {
 			var AttrName = $(this).attr('title');
 			$(".footer .social-view").toggle("slide", {direction:'right'} , "easeOutQuint ", 500);
 			switch (AttrName){
-			   case "Github": {SetSocialViewDetails("http://ngocquyhoang.github.io/", "assets/github.jpg", AttrName, "Connect us on <br />" + AttrName)};
+			   case "Github": {SetSocialViewDetails("http://ngocquyhoang.github.io/", "/assets/github.jpg", AttrName, "Connect us on <br />" + AttrName)};
 			   break;
-			   case "Facebook": {SetSocialViewDetails("https://www.facebook.com/ngocquyhoang.93", "assets/facebook.jpg", AttrName, "Connect us on <br />" + AttrName)};
+			   case "Facebook": {SetSocialViewDetails("https://www.facebook.com/ngocquyhoang.93", "/assets/facebook.jpg", AttrName, "Connect us on <br />" + AttrName)};
 			   break;				   
-			   case "Goolge Plus": {SetSocialViewDetails("https://www.google.com", "assets/google-plus.jpg", AttrName, "Connect us on <br />" + AttrName)};
+			   case "Goolge Plus": {SetSocialViewDetails("https://www.google.com", "/assets/google-plus.jpg", AttrName, "Connect us on <br />" + AttrName)};
 			   break;
-			   default: {SetSocialViewDetails("https://twitter.com/malloryandbob", "assets/twitter.jpg", AttrName, "Connect us on <br />" + AttrName)};
+			   default: {SetSocialViewDetails("https://twitter.com/malloryandbob", "/assets/twitter.jpg", AttrName, "Connect us on <br />" + AttrName)};
 			};
 		});
 	});

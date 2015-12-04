@@ -6,6 +6,11 @@ gem 'devise'
 gem 'rails', '4.2.4'
 # Use mysql as the database for Active Record
 gem 'mysql2', '~> 0.3.18'
+# Use Ck editer for post blog
+gem 'ckeditor'
+gem 'paperclip'
+# Confix URL
+gem 'friendly_id', '~> 5.0.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets

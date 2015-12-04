@@ -36,7 +36,7 @@
 											<td><%= user_log.user_id %></td>
 											<td><%= user_log.ip %></td>
 											<td><%= user_log.log_data %></td>
-											<td><%= user_log.created_at.in_time_zone(7).strftime("%B - %d - %Y  %M:%H") %></td>
+											<td><%= user_log.created_at.in_time_zone(7).strftime("%B - %d - %Y  %H:%M") %></td>
 										</tr>
 									<% end %>
 									<tr>

@@ -12,11 +12,11 @@ class AdminController < ApplicationController
 		@all_messages = ContactMessage.all
 	end
 	
-	def add_new_blog
-		
-	end
+	# def add_new_blog
+	# 	@blog_post = Blog.new
+	# end
 	
 	def blog_control
-		@all_blog = Blog.all
+		@all_blog = Admin::Blog.all
 	end
 end

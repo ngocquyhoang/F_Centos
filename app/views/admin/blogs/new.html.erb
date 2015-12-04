@@ -22,13 +22,7 @@
 						<div class="detail-content center-width">
 							<h3>Add new Blog post</h3>
 							<div class="add-new-blog-box">
-								<%= form_for @blog_post, :html => {class: 'add-new-blog-form'} do |form| %>
-									<p class="title-input-add-blog-form">Title Blog Post</p>
-									<%= form.text_field :title, :class => "add-new-blog-title", :placeholder => "Content of blog" %>
-									<p class="title-input-add-blog-form">Blog Post Content</p>
-									<%= cktext_area :page, :info, :class => 'add-new-blog-content', :placeholder => "Content of blog", :cols => 40, :ckeditor => {:uiColor => '#AADC6E', :toolbar => 'mini'} %>
-									<%= form.submit "Post blog", :class => "post-blog" %>
-								<% end %>
+								<%= render 'form' %>
 							</div>
 						</div>
 					</div>

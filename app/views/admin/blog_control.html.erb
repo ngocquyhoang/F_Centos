@@ -24,22 +24,27 @@
 							<table class="table">
 								<thead>
 									<tr>
-										<th>Blog ID</th>
-										<th>Create User</th>
-										<th>Time Create</th>
-										<th>Blog Title</th>
+										<td>Blog ID</td>
+										<td>Time Create</td>
+										<td>Blog Title</td>
+										<td>View</td>
+										<td>Edit</td>
+										<td>Delete</td>
 									</tr>
 								</thead>
 								<tbody>
 									<% @all_blog.each do |blog| %>
 										<tr>
 											<td><%= blog.id %></td>
-											<td><%= blog.create_user %></td>
-											<td><%= blog.created_at.in_time_zone(7).strftime("%B - %d - %Y  %M:%H") %></td>
+											<td><%= blog.created_at.in_time_zone(7).strftime("%B - %d - %Y  %H:%M") %></td>
 											<td><%= blog.title %></td>
+											<td><%= link_to 'View', blog, class: "link-view" %></td>
+											<td><%= link_to 'Edit', edit_admin_blog_path(blog), class: "link-view" %></td>
+											<td><%= link_to 'Delete', blog, method: :delete, data: { confirm: 'Are you want delete this blog?' }, class: "link-view" %></td>
 										</tr>
 									<% end %>
 									<tr>
+										<td></td>
 										<td></td>
 										<td></td>
 										<td></td>

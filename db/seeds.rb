@@ -10,4 +10,4 @@
 	User.create(email: 'vutiendung@gmail.com' ,name: 'Vu Tien Dung', password: "Cbr1000r", role: 'member', gender: 'Male', age: '22', address: 'No 3 Pham Van Dong streest, Tay Ho distric Ha noi city', p_num: '01662786955')
 	User.create(email: 'luongtiensy@gmail.com' ,name: 'Luong Tien Sy', password: "Cbr1000r", role: 'member', gender: 'Male', age: '22', address: 'No 224 Tran Duy Hung streest, Cau Giay distric Ha noi city', p_num: '0924586357')
 	User.create(email: 'nguyenviethuynh@gmail.com' ,name: 'Nguyen Viet Huynh', password: "Cbr1000r", role: 'member', gender: 'Male', age: '22', address: 'No 25 Pho Vong streest, Hai Ba Trung distric Ha noi city', p_num: '0956897535')
-	Blog.create(title: 'Mongo db vs My Sql', content: 'OK this is content' , create_user: 'Hoang Ngoc Quy')
+	Admin::Blog.create(title: 'Mongo db vs My Sql', content: 'OK this is content')

@@ -36,7 +36,7 @@
 									<% @all_messages.each do |message| %>
 										<tr>
 											<td><%= message.id %></td>
-											<td><%= message.created_at.strftime("%B - %d - %Y  %M:%H") %></td>
+											<td><%= message.created_at.strftime("%B - %d - %Y  %H:%M") %></td>
 											<td><%= message.name %></td>
 											<td><%= message.company %></td>
 											<td><%= message.email %></td>

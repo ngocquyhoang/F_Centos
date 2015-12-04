@@ -1,0 +1,25 @@
+<%= form_for(@admin_blog, :html => {class: 'add-new-blog-form'}) do |f| %>
+  <% if @admin_blog.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@admin_blog.errors.count, "error") %> prohibited this admin_blog from being saved:</h2>
+
+      <ul>
+      <% @admin_blog.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <p class="title-input-add-blog-form">Title Blog Post</p>
+    <%= f.text_field :title, :class => "add-new-blog-title", :placeholder => "Content of blog" %>
+  </div>
+  <div class="field">
+    <p class="title-input-add-blog-form">Blog Post Content</p>
+    <%= f.text_area :content, :class => 'add-new-blog-content', :placeholder => "Content of blog" %>
+  </div>
+  <div class="actions">
+    <%= f.submit "Save", :class => "post-blog" %>
+  </div>
+<% end %>

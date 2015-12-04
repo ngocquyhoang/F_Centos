@@ -795,3 +795,46 @@ button#button-add-info{
 	font-size: 0.75em;
 	margin: 0px 5px;
 }
+.add-new-blog-box{
+	margin-top: 20px;
+}
+.add-new-blog-box  .add-new-blog-form .add-new-blog-title{
+	width: 70%;
+	background-color: rgba(255,255,255,0.0);
+	padding: 5px 10px;
+	font-size: 17px;
+	border: 1px solid #fff;
+	color: #fff;
+}
+.add-new-blog-box  .add-new-blog-form .add-new-blog-content{
+	width: 100%;
+	background-color: rgba(255,255,255,0.0);
+	padding: 5px 10px;
+	font-size: 17px;
+	border: 1px solid #fff;
+	color: #fff;
+	height: 300px;
+}
+.title-input-add-blog-form{
+	width: 100%;
+	margin: 20px 0px 5px;
+	font-size: 20px;
+	padding-left: 10px;
+}
+.add-new-blog-box .add-new-blog-form .post-blog{
+	float: right;
+	padding: 10px 30px;
+	margin:20px;
+	background-color: rgba(255,255,255,0.0);
+	border: 1px solid #fff;
+}
+.add-new-blog-box .add-new-blog-form .post-blog:hover{
+	background-color: rgba(255,255,255,0.5);
+}
+.link-view{
+	color: #fff;
+}
+.link-view:hover{
+	color: #fff;
+	text-decoration: none;
+}
