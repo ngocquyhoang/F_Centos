@@ -10,4 +10,8 @@
 	User.create(email: 'vutiendung@gmail.com' ,name: 'Vu Tien Dung', password: "Cbr1000r", role: 'member', gender: 'Male', age: '22', address: 'No 3 Pham Van Dong streest, Tay Ho distric Ha noi city', p_num: '01662786955')
 	User.create(email: 'luongtiensy@gmail.com' ,name: 'Luong Tien Sy', password: "Cbr1000r", role: 'member', gender: 'Male', age: '22', address: 'No 224 Tran Duy Hung streest, Cau Giay distric Ha noi city', p_num: '0924586357')
 	User.create(email: 'nguyenviethuynh@gmail.com' ,name: 'Nguyen Viet Huynh', password: "Cbr1000r", role: 'member', gender: 'Male', age: '22', address: 'No 25 Pho Vong streest, Hai Ba Trung distric Ha noi city', p_num: '0956897535')
-	Admin::Blog.create(title: 'Mongo db vs My Sql', content: 'OK this is content')
+	Admin::Blog.create(title: 'Install rails', content: "Ruby on Rails is one of the most popular application stacks for developers wishing to create sites and web apps. The Ruby programming language, coupled with the Rails development framework, makes app development simple.
+
+Since Ruby on Rails doesn't come in a neatly packaged format, getting the framework installed used to be one of the more difficult parts of getting started. Luckily, tools like rvm, the Ruby Version Manager, have made installation simple.
+
+In this guide, we'll show how to install rvm on an Ubuntu 14.04 VPS, and use it to install a stable version of Ruby and Rails. Although you can go through these procedures as the root user, we'll assume you're operating using an unprivileged user as shown in steps 1-4 in this guide.")

@@ -737,7 +737,7 @@ button#button-add-info{
 	text-align: center;
 }
 .admin-step-icon .control .user, .admin-step-icon .control .blog{
-	width: 200px;
+	width: 295px;
 }
 .admin-step-icon .fa{
 	font-size: 9em;
@@ -751,7 +751,7 @@ button#button-add-info{
 	display: none;
 }
 .admin-step-icon .control .message{
-	width: 200px;
+	width: 295px;
 }
 .admin-step-icon .control{
 	position: relative;

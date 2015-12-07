@@ -1,14 +1,74 @@
-<p id="notice"><%= notice %></p>
-
-<p>
-  <strong>Title:</strong>
-  <%= @admin_blog.title %>
-</p>
-
-<p>
-  <strong>Content:</strong>
-  <%= @admin_blog.content %>
-</p>
-
-<%= link_to 'Edit', edit_admin_blog_path(@admin_blog) %> |
-<%= link_to 'Back', admin_blogs_path %>
+<!-- BLOG -->
+<section class="blog">
+	<h2 class="title-section">Blog post</h2>
+	<div class="content-section">
+		<div class="blog-post-content">
+			<a href="https://en.wikipedia.org/wiki/Lorem_ipsum"><h3 class="post-title"><%= @admin_blog.title %></h3></a>
+			<h4 class="time-post"><%= @admin_blog.created_at.in_time_zone(7).strftime("%B - %d - %Y  %H:%M") %></h4>
+			<a href=""><img src="http://techmaster.vn/fileman/Uploads/ImageBlog/co-so-du-lieu-mongodb.png" alt="Post demo image" class="post-image" /></a>
+			  <div class="post-content center-width">
+			    <p><%= @admin_blog.content %></p>
+        </div>
+			<hr />
+			<h4 class="comment-title">Comment</h4>
+			<hr />
+			<div class="comment-box center-width">
+				<div class="comment">
+					<img src="/assets/6.jpg" alt="Member Avatar" class="comment-avatar-member">
+					<div class="right-comment-content">
+						<h3 class="member-name-content">Hoang Ngoc Quy <span class="comment-time">- 20 Nov 2015</span></h3>
+						<p class="content-comment">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+						</p>
+					</div>
+				</div>
+				<div class="comment">
+					<img src="/assets/2.jpg" alt="Member Avatar" class="comment-avatar-member">
+					<div class="right-comment-content">
+						<h3 class="member-name-content">Hoang Ngoc Quy <span class="comment-time">- 20 Nov 2015</span></h3>
+						<p class="content-comment">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+						</p>
+					</div>
+				</div>
+				<div class="comment">
+					<img src="/assets/1.jpg" alt="Member Avatar" class="comment-avatar-member">
+					<div class="right-comment-content">
+						<h3 class="member-name-content">Hoang Ngoc Quy <span class="comment-time">- 20 Nov 2015</span></h3>
+						<p class="content-comment">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+						</p>
+					</div>
+				</div>
+				<div class="comment">
+					<img src="/assets/5.jpg" alt="Member Avatar" class="comment-avatar-member">
+					<div class="right-comment-content">
+						<h3 class="member-name-content">Hoang Ngoc Quy <span class="comment-time">- 20 Nov 2015</span></h3>
+						<p class="content-comment">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+						</p>
+					</div>
+				</div>
+				<hr />
+				<div class="add-comment-form">
+					<form class="form-comment">
+						<h3>Comment</h3>
+						<textarea name="" class="text-form-area"></textarea>
+						<button type="" class="post-button">Post comment</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<script type="text/javascript">
+	$(document).ready(function() {
+		SetWidthValue();
+		SetContentHeightValue();
+		$(".content-section").mCustomScrollbar({theme:"light-thin",scrollButtons:{enable:true}});
+		ShowSocialView();
+		$(".left-slider li.blog").addClass('active');
+		$(".left-slider li.blog i").addClass('active-icon');
+		$('title').html('Blog - Rails tutorial');
+	});	
+</script>

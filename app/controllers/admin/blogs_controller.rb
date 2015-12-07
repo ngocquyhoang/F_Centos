@@ -35,6 +35,7 @@ class Admin::BlogsController < ApplicationController
         format.json { render json: @admin_blog.errors, status: :unprocessable_entity }
       end
     end
+    
   end
 
   # PATCH/PUT /admin/blogs/1
